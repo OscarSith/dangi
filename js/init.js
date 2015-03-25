@@ -8,12 +8,6 @@ $(".disabled").click(function(event) {
   event.preventDefault();
 });
 
-/* ----------------- */
-
-
-/* SlidesJS */
-/* ----------------- */
-
 $(function(){
       $(".banner").slidesjs({
 		width: 1200,
@@ -50,58 +44,7 @@ $(function(){
     }
       });
     });
-/* ----------------- */
-
-
-/* Mobile Navigation */
-/* ----------------- */
-
 jQuery('.SL_swap').meanmenu();
-
-/* ----------------- */
-
-/*  Moderizr Universal Placeholder Text */
-/* ----------------- */
-jQuery(function() {
-        // check placeholder browser support
-        if (!Modernizr.input.placeholder) {
-
-            // set placeholder values
-            jQuery(this).find('[placeholder]').each(function() {
-                if (jQuery(this).val() == '') { // if field is empty
-                    jQuery(this).val( jQuery(this).attr('placeholder') );
-                }
-            });
-
-            // focus and blur of placeholders
-            jQuery('[placeholder]').focus(function() {
-                if (jQuery(this).val() == jQuery(this).attr('placeholder')) {
-                    jQuery(this).val('');
-                    jQuery(this).removeClass('placeholder');
-                }
-            }).blur(function() {
-                if (jQuery(this).val() == '' || jQuery(this).val() == jQuery(this).attr('placeholder')) {
-                    jQuery(this).val(jQuery(this).attr('placeholder'));
-                    jQuery(this).addClass('placeholder');
-                }
-            });
-
-            // remove placeholders on submit
-            jQuery('[placeholder]').closest('form').submit(function() {
-                jQuery(this).find('[placeholder]').each(function() {
-                    if (jQuery(this).val() == jQuery(this).attr('placeholder')) {
-                        jQuery(this).val('');
-                    }
-                })
-            });
-
-        }
-    });
-
-/* ----------------- */
-
-/* WayPoints */
-/* ----------------- */
 
 $('.home-block').waypoint(function(direction) {
   if (direction === "down") {
@@ -150,11 +93,6 @@ $( ".subNavigation a" ).click(function() {
   $.waypoints('refresh');
 });
 
-/* ----------------- */
-
-/* Scrollto */
-/* ----------------- */
-
 jQuery(function() {
 	$('.subNavScroll, .SL_swap').localScroll({
 		   hash:true,
@@ -163,12 +101,6 @@ jQuery(function() {
 		});
 	});
 
-/* ----------------- */
-
-
-
-/* Scrolling Thumbnails */
-/* ----------------- */
 $("#thumbSlider").owlCarousel({
   itemsDesktop : [1299,4],
   itemsDesktopSmall : [980,4],
@@ -181,26 +113,6 @@ $("#thumbSlider").owlCarousel({
 	scrollPerPage: true,
 	lazyLoad: true
 });
-/*
-$("#thumbSliderMini").owlCarousel({
-	items : 3,
-    itemsDesktop : [1299,3],
-    itemsDesktopSmall : [980,2],
-    itemsTablet: [768,3],
-    itemsTabletSmall: false,
-    itemsMobile : [479,2],
-    singleItem : false,
-	navigation: false,
-	pagination: true,
-	scrollPerPage: true,
-	lazyLoad: true
-});
-
-/* ----------------- */
-
-
-/* Gallery Popups */
-/* ----------------- */
 
 $('.gallery-item').each(function() { // the containers for all your galleries
     $(this).magnificPopup({
@@ -237,12 +149,6 @@ $('.gallery-item').each(function() { // the containers for all your galleries
     });
 }); 
 
-/* ----------------- */
-
-
-/* Client Testimonial Rotator */
-/* ----------------- */
-
 	$( function() {
 		$( '#cbp-qtrotator' ).cbpQTRotator(
 		{
@@ -255,17 +161,6 @@ $('.gallery-item').each(function() { // the containers for all your galleries
 		}
 		);
 	});
-/* ----------------- */
-
-/**
- * jQuery Unveil
- * A very lightweight jQuery plugin to lazy load images
- * http://luis-almeida.github.com/unveil
- *
- * Licensed under the MIT license.
- * Copyright 2013 Luís Almeida
- * https://github.com/luis-almeida
- */
 
 ;(function($){$.fn.unveil=function(threshold,callback){var $w=$(window),th=threshold||0,retina=window.devicePixelRatio>1,attrib=retina?"data-src-retina":"data-src",images=this,loaded;this.one("unveil",function(){var source=this.getAttribute(attrib);source=source||this.getAttribute("data-src");if(source){this.setAttribute("src",source);if(typeof callback==="function")callback.call(this);}});function unveil(){var inview=images.filter(function(){var $e=$(this),wt=$w.scrollTop(),wb=wt+$w.height(),et=$e.offset().top,eb=et+$e.height();return eb>=wt-th&&et<=wb+th;});loaded=inview.trigger("unveil");images=images.not(loaded);}$w.scroll(unveil);$w.resize(unveil);unveil();return this;};})(window.jQuery||window.Zepto);
 /* ----------------- */
@@ -399,138 +294,6 @@ $('.gallery-item').each(function() { // the containers for all your galleries
     setTimeout(scroller, 0);
   });
 })(jQuery);
-/* ----------------- */
-
-
-/*!
- * classie - class helper functions
- * from bonzo https://github.com/ded/bonzo
- * 
- * classie.has( elem, 'my-class' ) -> true/false
- * classie.add( elem, 'my-new-class' )
- * classie.remove( elem, 'my-unwanted-class' )
- * classie.toggle( elem, 'my-class' )
- */
-
-/*jshint browser: true, strict: true, undef: true */
-/*global define: false */
-
-/*( function( window ) {
-
-'use strict';
-
-// class helper functions from bonzo https://github.com/ded/bonzo
-
-function classReg( className ) {
-  return new RegExp("(^|\\s+)" + className + "(\\s+|$)");
-}
-
-// classList support for class management
-// altho to be fair, the api sucks because it won't accept multiple classes at once
-var hasClass, addClass, removeClass;
-
-if ( 'classList' in document.documentElement ) {
-  hasClass = function( elem, c ) {
-    return elem.classList.contains( c );
-  };
-  addClass = function( elem, c ) {
-    elem.classList.add( c );
-  };
-  removeClass = function( elem, c ) {
-    elem.classList.remove( c );
-  };
-}
-else {
-  hasClass = function( elem, c ) {
-    return classReg( c ).test( elem.className );
-  };
-  addClass = function( elem, c ) {
-    if ( !hasClass( elem, c ) ) {
-      elem.className = elem.className + ' ' + c;
-    }
-  };
-  removeClass = function( elem, c ) {
-    elem.className = elem.className.replace( classReg( c ), ' ' );
-  };
-}
-
-function toggleClass( elem, c ) {
-  var fn = hasClass( elem, c ) ? removeClass : addClass;
-  fn( elem, c );
-}
-
-var classie = {
-  // full names
-  hasClass: hasClass,
-  addClass: addClass,
-  removeClass: removeClass,
-  toggleClass: toggleClass,
-  // short names
-  has: hasClass,
-  add: addClass,
-  remove: removeClass,
-  toggle: toggleClass
-};
-
-// transport
-if ( typeof define === 'function' && define.amd ) {
-  // AMD
-  define( classie );
-} else {
-  // browser global
-  window.classie = classie;
-}
-
-})( window );*/
-/* ----------------- */
-
-/**
- * AnimatedHeader.min.js v1.0.0
- * http://www.codrops.com
- *
- * Licensed under the MIT license.
- * http://www.opensource.org/licenses/mit-license.php
- * 
- * Copyright 2013, Codrops
- * http://www.codrops.com
- */
-
-/*var AnimatedHeader = (function() {
- 
-    var docElem = document.documentElement,
-        header = document.querySelector( '#wrap-header' ),
-        didScroll = false,
-        changeHeaderOn = 600;
- 
-    function init() {
-        window.addEventListener( 'scroll', function( event ) {
-            if( !didScroll ) {
-                didScroll = true;
-                setTimeout( scrollPage, 0 );
-            }
-        }, false );
-    }
- 
-    function scrollPage() {
-        var sy = scrollY();
-        if ( sy >= changeHeaderOn ) {
-            classie.add( header, 'wrap-header-shrink' );
-        }
-        else {
-            classie.remove( header, 'wrap-header-shrink' );
-        }
-        didScroll = false;
-    }
- 
-    function scrollY() {
-        return window.pageYOffset || docElem.scrollTop;
-    }
- 
-    init();
- 
-})();
-*/
-/* ----------------- */
 
 /**
  * jquery.cbpQTRotator.min.js v1.0.0
@@ -543,8 +306,4 @@ if ( typeof define === 'function' && define.amd ) {
  * http://www.codrops.com
  */
 (function(c,b,e){var d=b.Modernizr;c.CBPQTRotator=function(f,g){this.$el=c(g);this._init(f)};c.CBPQTRotator.defaults={speed:700,easing:"ease",interval:8000};c.CBPQTRotator.prototype={_init:function(f){this.options=c.extend(true,{},c.CBPQTRotator.defaults,f);this._config();this.$items.eq(this.current).addClass("cbp-qtcurrent");if(this.support){this._setTransition()}this._startRotator()},_config:function(){this.$items=this.$el.children("div.cbp-qtcontent");this.itemsCount=this.$items.length;this.current=0;this.support=d.csstransitions;if(this.support){this.$progress=c('').appendTo(this.$el)}},_setTransition:function(){setTimeout(c.proxy(function(){this.$items.css("transition","opacity "+this.options.speed+"ms "+this.options.easing)},this),25)},_startRotator:function(){if(this.support){this._startProgress()}setTimeout(c.proxy(function(){if(this.support){this._resetProgress()}this._next();this._startRotator()},this),this.options.interval)},_next:function(){this.$items.eq(this.current).removeClass("cbp-qtcurrent");this.current=this.current<this.itemsCount-1?this.current+1:0;this.$items.eq(this.current).addClass("cbp-qtcurrent")},_startProgress:function(){setTimeout(c.proxy(function(){this.$progress.css({transition:"width "+this.options.interval+"ms linear",width:"100%"})},this),25)},_resetProgress:function(){this.$progress.css({transition:"none",width:"0%"})},destroy:function(){if(this.support){this.$items.css("transition","none");this.$progress.remove()}this.$items.removeClass("cbp-qtcurrent").css({position:"relative","z-index":100,"pointer-events":"auto",opacity:1})}};var a=function(f){if(b.console){b.console.error(f)}};c.fn.cbpQTRotator=function(g){if(typeof g==="string"){var f=Array.prototype.slice.call(arguments,1);this.each(function(){var h=c.data(this,"cbpQTRotator");if(!h){a("cannot call methods on cbpQTRotator prior to initialization; attempted to call method '"+g+"'");return}if(!c.isFunction(h[g])||g.charAt(0)==="_"){a("no such method '"+g+"' for cbpQTRotator instance");return}h[g].apply(h,f)})}else{this.each(function(){var h=c.data(this,"cbpQTRotator");if(h){h._init()}else{h=c.data(this,"cbpQTRotator",new c.CBPQTRotator(g,this))}})}return this}})(jQuery,window);
-
-
-/* ----------------- */
-
  });
