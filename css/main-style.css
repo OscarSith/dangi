@@ -1060,23 +1060,17 @@ span.hoverBox .linKed{
 
 }
 .social_sharenadea li{
-	list-style:none;
 	text-decoration:none;
 	display:inline-block;
 	height:50px;
 	width:50px;
 	border-radius: 50%;
 	border:2px solid #fff;
-	padding: 12px 0px;
+	padding: 10px 0px;
 	text-align: center;
 }
-.social_sharenadea li a{
-	text-align:center;
-	border-radius:50%;
-	background:transparent;
-	padding: 12px;
+.social_sharenadea li a {
 	color:#fdfdfd;
-	line-height:25px;
 }
 .social_sharenadea li:hover{background:#4cc1d3;}
 .secbr{float:left;}
