@@ -816,3 +816,6 @@ website:   	http://www.themepunch.com
 	padding-top: 20px;
     display: inline-block;
 }
+.fixedHeader #logo {
+	padding-top: 0px !important;
+}
