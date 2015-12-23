@@ -840,16 +840,16 @@ span.hoverBox .linKed{
 .latestpost h2{color:#7e8082;margin-bottom:20px;}
 .post-title{
 	position: absolute;
-	margin-top: -43px;
+	margin-top: -44px;
 	background: #fff;
-	padding-top: 20px;
-	padding-right: 20px;
+	padding-top: 4px;
+	padding-right: 24px;
 }
 .post-title h4{
 	color:#6f6f73;
 	font-family:'oswaldlight';
 	font-weight:lighter;
-	font-size:18px;
+	font-size:15px;
 	padding-bottom: 0px;
 }
 .post-info{margin:16px 0px 9px;font-size:10px;font-family:'oswaldlight'}
@@ -2668,6 +2668,16 @@ ul.portfolioContainer3 .col-sm-3{width:100%;}
 .blogvideo{margin-top:20px;}
 .blogsingle .post-content-container p{color:#9c9d9f;font-weight: normal;letter-spacing: -0.07em;}
 .blogsingle .blog-quote{margin: 15px 0px;}
+.blogsingle h3 {
+	margin-bottom: 12px
+}
+.blogsingle ol {
+	padding-left: 40px;
+	color: #9c9d9f;
+	font-weight: normal;
+	letter-spacing: -0.07em;
+	font-size: 12px;
+}
 .post-video-container iframe{width:100%; height:315px;}
 .post-audio-container iframe{width:100%; height:165px;}
 .post-image-container{overflow:hidden;}

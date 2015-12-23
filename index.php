@@ -1,106 +1,4 @@
-<!DOCTYPE html>
-<!--[if lt IE 7 ]> <html class="ie ie6 no-js" lang="en"> <![endif]-->
-<!--[if IE 7 ]>    <html class="ie ie7 no-js" lang="en"> <![endif]-->
-<!--[if IE 8 ]>    <html class="ie ie8 no-js" lang="en"> <![endif]-->
-<!--[if IE 9 ]>    <html class="ie ie9 no-js" lang="en"> <![endif]-->
-<!--[if gt IE 9]><!--><html class="no-js" lang="en"><!--<![endif]-->
-<head>
-<meta http-equiv="content-type" content="text/html;charset=utf-8" />
-<title>Agencia Digital Dangi</title>
-<meta name="description" content="Agencia Digital de creacion de paginas web y marketing digital, Entre los principales servicios que ofrecemos esta la creacion de paginas web, diseño de sitios web para comercio electronico, desarollo de videos corporativos, SEO (posicionamiento web en buscadores), Analitica Web, SEM (Google adwords), CRO(Optimizacion del ratio de conversion), estrategias publicitarias y Planning">
-<meta name="keywords" content="Agencia Digital Dangi, Agencia Digital, desarrollo de paginas web, diseño de paginas web, creacion videos corporativos, videos institucionales, Social media, campañas digitales">
-<meta name="author" content="">
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-<link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap.css">
-<link rel="stylesheet" type="text/css" media="screen" href="css/main-style.css">
-<link rel="stylesheet" type="text/css" media="screen" href="css/css3-animations.css">
-<link rel="stylesheet" type="text/css" media="screen" href="css/responsive.css">
-<link type="text/css" rel="stylesheet" id="theme" href="css/jquery-ui-1.8.16.custom.css"/>
-<link type="text/css" rel="stylesheet" href="css/lightbox.min.css"/>
-
-<!-- Revolution slider css -->
-<link rel="stylesheet" href="rs-plugin/css/settings.css"/>
-<link rel="stylesheet" href="rs-plugin/css/revolution.css"/>
-
-<!-- Owl Carousel css -->
-<link href="js/lib/owl-carousel/owl.carousel.css" rel="stylesheet">
-<link href="js/lib/owl-carousel/owl.theme.css" rel="stylesheet">
-<link href="js/lib/owl-carousel/owl.transitions.css" rel="stylesheet">
-
-<!-- font icon css style-->
-<link rel="stylesheet" href="font/css/font-awesome.css">
-<link rel="stylesheet" href="font/icons/iconstyle.css">
-
-<link href='http://fonts.googleapis.com/css?family=Oswald:400,700,300' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
-
-<link rel="shortcut icon" href="images/favicon.ico">
-<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
-<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-72x72.png">
-<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-114x114.png">
-
-</head>
-	<body id="top" class="ndhome">
-		<header class="header headerStyle1" id="header">
-			<div class="ndheader" id="ndheader">
-				<div class="sticky scrollHeaderWrapper">
-					<div class="container">
-						<div class="row">
-							<div class="col-sm-12">
-								<div class="logo pull-left">
-									<!-- <a class="navbar-brand" href="index.html">
-										Nade<span class="font-color">a.</span>
-									</a> -->
-									<a href="index.html" id="logo"><img src="images/logo-dangi.png" alt="Logo" /></a>
-								</div>
-								<nav class="mainMenu mainNav pull-right" id="mainNav">
-									<ul class="navTabs">
-										<li><a href="index.html" class="active">Home</a></li>
-										<li>
-											<a href="#">La Agencia</a>
-											<ul class="dropDown sub-menu">
-												<li><a href="aboutus.html">Nosotros</a></li>
-												<li><a href="portfolio-single2.html">Campañas sociales</a></li>
-											</ul>
-										</li>
-										<li>
-											<a href="#">Servicios</a>
-											<ul class="dropDown sub-menu">
-												<li><a href="portfolio-single.html">Planning</a></li>
-												<li><a href="portfolio-single.html">Desarrollo Web</a></li>
-												<li><a href="portfolio-single.html">Herramientas Digitales</a></li>
-												<li><a href="portfolio-single.html">Social Media</a></li>
-												<li><a href="portfolio-single.html">Diseño Publicitario</a></li>
-												<li><a href="portfolio-single.html">Audiovisuales</a></li>
-											</ul>
-										</li>
-										<li>
-											<a href="#">Portafolio</a>
-											<ul class="dropDown sub-menu">
-												<li><a href="blog-col2.html">Planning</a></li>
-												<li><a href="portfolio-3col.html">Desarrollo Web</a></li>
-												<li><a href="blog-wide.html">Herramientas Digitales</a></li>
-												<li><a href="blog-wide2.html">Social Media</a></li>
-												<li><a href="portfolio-3col.html">Diseño Publicitario</a></li>
-												<li><a href="portfolio-3col.html">Audiovisuales</a></li>
-											</ul>
-										</li>
-										<li><a href="blog.html">Blog</a></li>
-										<li><a href="contact.html">Contáctenos</a></li>
-									</ul>
-								</nav>
-
-								<a href="#" class="generalLink" id="responsiveMainNavToggler"><i class="fa fa-bars"></i></a>
-								<div class="clearfix"></div>
-								<div class="responsiveMainNav"></div>
-
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</header>
-
+<?php include 'tpl/header.tpl.php'; ?>
 		<!-- Slider Section Start -->
 		<div class="fullwidthbanner-container nd_rv_slider">
 			<div class="fullwidthbanner">
@@ -418,23 +316,23 @@
 									</div>
 
 									<div class="post-title">
-										<a href="blog-single.html" target="blank">
-											<h4>Lorem Ipsum</h4>
+										<a href="blog-single_1.php" target="blank">
+											<h4>Desarrollo de contenidos en social media.</h4>
 										</a>
 									</div><!-- Blog Title-->
 
 									<div class="post-info">
 										<div class="post-date">
 											<span class="icon-clock-lp"><i class="icon_clock_alt"></i></span>
-											<span class="month">Dec</span>
+											<span class="month">Oct</span>
 											<span class="day">07</span>
-											<span class="year">2014</span>
+											<span class="year">2015</span>
 											<span class="line-pp"></span>
 										</div>
 									</div><!-- .post-info end -->
 
 									<p>
-										Praesent blandit turpis leo, ut iaculis arcu. Pas accumsan tristique massa, in auctor  at hendrerit id. Sed aliquam  a ongue  inar
+										Las redes sociales son las herramientas principales de la comunicación de una marca que trabaja una sólida estrategia de contenidos.
 									</p>
 									<div class="readmore">
 										<a class="read-more" href="blog-single.html" target="blank">Read More<i class="arrow_right"></i></a>
@@ -445,14 +343,14 @@
 							<div class="item col-sm-3">
 								<article class="post-content-container">
 									<div class="post-image-container">
-										<a href="blog-single.html" target="blank">
+										<a href="blog-single_1.php" target="blank">
 											<img src="images/blog/blog-2.jpg" alt="blog post image" />
 										</a>
 									</div>
 
 									<div class="post-title">
-										<a href="blog-single.html" target="blank">
-											<h4>Lorem Ipsum</h4>
+										<a href="blog-single_2.php" target="blank">
+											<h4>La web ideal</h4>
 										</a>
 									</div><!-- Blog Title-->
 
@@ -467,10 +365,10 @@
 									</div><!-- .post-info end -->
 
 									<p>
-										Praesent blandit turpis leo, ut iaculis arcu. Pas accumsan tristique massa, in auctor  at hendrerit id. Sed aliquam  a ongue  inar
+										Hay muchas formas y estilos para desarrollar una página web. De entre las mejores hemos querido compartirles los siguientes pasos
 									</p>
 									<div class="readmore">
-										<a class="read-more" href="blog-single.html" target="blank">Read More<i class="arrow_right"></i></a>
+										<a class="read-more" href="blog-single_2.php" target="blank">Read More<i class="arrow_right"></i></a>
 									</div>
 								</article><!-- .blog-post end -->
 							</div><!-- 2 -->
@@ -484,8 +382,8 @@
 									</div>
 
 									<div class="post-title">
-										<a href="blog-single.html" target="blank">
-											<h4>Lorem Ipsum</h4>
+										<a href="blog-single_3.php" target="blank">
+											<h4>No hacemos páginas web, mejoramos negocios</h4>
 										</a>
 									</div><!-- Blog Title-->
 
@@ -500,10 +398,10 @@
 									</div><!-- .post-info end -->
 
 									<p>
-										Praesent blandit turpis leo, ut iaculis arcu. Pas accumsan tristique massa, in auctor  at hendrerit id. Sed aliquam  a ongue  inar
+										En el transcurso del tiempo nuestros clientes nos han realizado algunas preguntas que de alguna manera suelen repetirse.
 									</p>
 									<div class="readmore">
-										<a class="read-more" href="blog-single.html" target="blank">Read More<i class="arrow_right"></i></a>
+										<a class="read-more" href="blog-single_3.php" target="blank">Read More<i class="arrow_right"></i></a>
 									</div>
 								</article><!-- .blog-post end -->
 							</div><!-- 3 -->
@@ -517,10 +415,10 @@
 									</div>
 
 									<div class="post-title">
-										<a href="blog-single.html" target="blank">
-											<h4>Lorem Ipsum</h4>
+										<a href="blog-single_4.php" target="blank">
+											<h4>Página web y tarjeta de presentación son 2 cosas diferentes</h4>
 										</a>
-									</div><!-- Blog Title-->
+									</div>
 
 									<div class="post-info">
 										<div class="post-date">
@@ -533,10 +431,10 @@
 									</div><!-- .post-info end -->
 
 									<p>
-										Praesent blandit turpis leo, ut iaculis arcu. Pas accumsan tristique massa, in auctor  at hendrerit id. Sed aliquam  a ongue  inar
+										La mayoría de los empresarios y el público en general desde algunos años piensan que el uso de las páginas web es como el uso de una tarjeta de presentación.
 									</p>
 									<div class="readmore">
-										<a class="read-more" href="blog-single.html" target="blank">Read More<i class="arrow_right"></i></a>
+										<a class="read-more" href="blog-single_4.php" target="blank">Read More<i class="arrow_right"></i></a>
 									</div>
 								</article><!-- .blog-post end -->
 							</div><!-- 4 -->
@@ -573,7 +471,6 @@
 									</div>
 								</article><!-- .blog-post end -->
 							</div><!-- 5 -->
-
 						</div>
 					</div>
 				</div>
@@ -738,235 +635,24 @@
 								<i class="newswhIcon ndnewswhIcon"></i>
 							</div>
 							<h2>Suscríbete a nuestro blog</h2>
-						</div><!-- massage end-->
-					</div><!-- col 3 end-->
+						</div>
+					</div>
 					<div class="col-sm-offset-3 col-sm-4 animation" data-animation="animation-fade-in-right">
 						<div class="Sine-Up">
 							<form action="#" method="post" class="subscribe-form">
-							  <input type="email" name="email" class="subscribe-input" placeholder="Your Email Here">
-							  <button type="submit" class="subscribe-submit">Sing Up</button>
-							  <!-- Debe ir al correo info@agenciadangi.com con el asunto "Contacto BLOG" -->
+								<input type="email" name="email" class="subscribe-input" placeholder="Your Email Here">
+								<button type="submit" class="subscribe-submit">Sing Up</button>
+								<!-- Debe ir al correo info@agenciadangi.com con el asunto "Contacto BLOG" -->
 							</form>
-						</div><!-- SingUp end -->
-					</div><!-- col 4 end -->
-				</div><!-- row end -->
-			</div><!-- container end -->
-		</section>
-		<!-- Newslater Section End -->
-
-		<!-- GoogleMap Section Start -->
-		<div class="mapArea" id="googlemap">
-			<div id="contactMap" class="contact-map"></div>
-		</div>
-		<!-- GoogleMap Section End -->
-
-		<!-- Footer Section Start -->
-		<section class="footer-bg clear animation" data-animation="animation-fade-in-up" id="footer">
-			<div class="rows">
-				<div class="col-sm-5 ndft-no-padding footerbg-left">
-					<div class="footer-left">
-						<div class="col-sm-12 fotter-nopadd">
-							<div class="ft_left">
-								<h1 class="texth1">HOLA</h1>
-								<h3 class="head_ft">NOS ENCANTARÍA INTERACTUAR <br/>CON USTED.</h3>
-								<div class="ftsocial">
-									<ul class="social_sharenadea">
-										<li>
-											<a href="https://www.facebook.com/webRedox" target="blank">
-												<i class="fa fa-facebook fa-2x"></i>
-											</a>
-										</li>
-										<li>
-											<a href="https://twitter.com/webredox" target="blank">
-												<i class="fa fa-twitter fa-2x"></i>
-											</a>
-										</li>
-										<li>
-											<a href="#">
-												<i class="fa fa-skype fa-2x"></i>
-											</a>
-										</li>
-										<li>
-											<a href="#">
-												<i class="fa fa-youtube fa-2x"></i>
-											</a>
-										</li>
-									</ul>
-								</div>
-							</div>
 						</div>
 					</div>
 				</div>
+			</div>
+		</section>
+		<!-- Newslater Section End -->
 
-				<div class="col-sm-7 ndft-no-padding footerbg-right">
-					<div class="footer-right">
-						<div class="col-sm-6 col-sm-offset-6 fotter-nopadd2">
-							<div class="nadea_ContInro">
-								<h3 class="fthead">Información de contacto</h3>
-								<ul class="address">
-									<li>
-										<div class="pull-left">
-											<div class="ftIcon icon-pin-add">
-												<i class="ndlocationIcon ndftIcon"></i>
-											</div>
-										</div>
-										<p>Dirección<br>Calle Monte Cedro Mz. M Lt. 10 - SURCO.</p>
-									</li>
-									<li>
-										<div class="pull-left">
-											<div class="ftIcon icon-phone-add">
-												<i class="ndphoneeIcon ndftIcon"></i>
-											</div>
-										</div>
-										<p>999 119 350<br/>959 135 937</p>
-									</li>
-									<li>
-										<div class="pull-left">
-											<div class="ftIcon icon-from">
-												<i class="ndformIcon ndftIcon"></i>
-											</div>
-										</div>
-										<p>Email:<a class="mail-box" href="mailto:#"> info@agenciadangi.com</a></p>
-									</li>
-								</ul>
-							</div>
-						</div><!-- 6Col end-->
-					</div><!-- .test row end -->
-				</div><!-- col 7 end -->
-			</div><!-- rows end -->
+		<div class="mapArea" id="googlemap">
+			<div id="contactMap" class="contact-map"></div>
+		</div>
 
-			<!-- Footer Bottom Start-->
-			<div class="footer-bottom clear">
-				<div class="container">
-					<div class="row">
-						<div class="col-sm-6">
-							<ul class="footer-nav pull-left">
-								<li><a href="index.html">Home</a></li>
-								<li><a href="aboutus.html">Nosotros</a></li>
-								<li><a href="#">Servicios</a></li>
-								<li><a href="#">Portfolio</a></li>
-								<li><a href="blog.html">Blog</a></li>
-								<li><a href="contact.html">Contact</a></li>
-							</ul>
-						</div><!-- col 6 end -->
-						<div class="col-sm-6">
-							<p class="copywrite pull-right">&copy; 2015 Agencia Dangi - Construido con pasión.</p>
-						</div><!-- col 6 end -->
-					</div><!-- row end -->
-				</div><!-- container end -->
-			</div><!-- Footer Bottom End -->
-		</section><!-- footer section end  -->
-
-		<div class="go-up"><img src="images/back-top.png" alt="Back-To-Top"/></div>
-
-		<!-- Jquery lib-->
-		<script src="js/jquery.js"></script>
-		<script src="js/bootstrap.js"></script>
-		<!-- JavaScript -->
-		<script type="text/javascript" src="https://maps.google.com/maps/api/js?sensor=true"></script>
-		<script src="js/lib/jquery.appear.js"></script>
-		<script src="js/lib/owl-carousel/owl.carousel.min.js"></script>
-		<script type="text/javascript" src="js/gmaps.js"></script>
-		<!--for portfolio jquery-->
-		<script src="js/jquery.isotope.min.js" type="text/javascript"></script>
-		<script type="text/javascript" src="js/jquery.ui.widget.min.js"></script>
-		<script type="text/javascript" src="js/jquery.ui.rlightbox.js"></script>
-		<script src="rs-plugin/js/jquery.themepunch.tools.min.js"></script>
-		<script src="rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
-		<script type="text/javascript">
-			var tpj=jQuery;
-			tpj.noConflict();
-			tpj(document).ready(function() {
-
-			if (tpj.fn.cssOriginal!=undefined)
-				tpj.fn.css = tpj.fn.cssOriginal;
-
-				tpj('.banner').revolution(
-					{
-						dottedOverlay:"none",
-						delay:9000,
-						startwidth:1500,
-						startheight:700,
-						hideThumbs:200,
-
-						thumbWidth:120,
-						thumbHeight:50,
-						thumbAmount:5,
-
-						navigationType:"bullet",
-						navigationArrows:"solo",
-						navigationStyle:"preview3",
-
-
-						navigationHAlign:"center",				// Vertical Align top,center,bottom
-						navigationVAlign:"bottom",					// Horizontal Align left,center,right
-						navigationHOffset:0,
-						navigationVOffset:20,
-
-						soloArrowLeftHalign:"left",
-						soloArrowLeftValign:"center",
-						soloArrowLeftHOffset:20,
-						soloArrowLeftVOffset:0,
-
-						soloArrowRightHalign:"right",
-						soloArrowRightValign:"center",
-						soloArrowRightHOffset:20,
-						soloArrowRightVOffset:0,
-
-						touchenabled:"off",						// Enable Swipe Function : on/off
-						onHoverStop:"off",						// Stop Banner Timet at Hover on Slide on/off
-						stopAtSlide:-1,							// Stop Timer if Slide "x" has been Reached. If stopAfterLoops set to 0, then it stops already in the first Loop at slide X which defined. -1 means do not stop at any slide. stopAfterLoops has no sinn in this case.
-						stopAfterLoops:-1,						// Stop Timer if All slides has been played "x" times. IT will stop at THe slide which is defined via stopAtSlide:x, if set to -1 slide never stop automatic
-						hideCaptionAtLimit:0,					// It Defines if a caption should be shown under a Screen Resolution ( Basod on The Width of Browser)
-						hideAllCaptionAtLilmit:0,				// Hide all The Captions if Width of Browser is less then this value
-						hideSliderAtLimit:0,					// Hide the whole slider, and stop also functions if Width of Browser is less than this value
-						shadow:0,								//0 = no Shadow, 1,2,3 = 3 Different Art of Shadows  (No Shadow in Fullwidth Version !)
-						fullWidth:"on"							// Turns On or Off the Fullwidth Image Centering in FullWidth Modus
-					});
-				});
-		</script>
-		<script type="text/javascript">
-		var map;
-
-		map = new window.GMaps({
-			div: '#contactMap',
-			lat: -12.1368316,
-			lng: -76.984311,
-			scrollwheel: false,
-			zoomControl: false,
-			disableDoubleClickZoom: false,
-			disableDefaultUI: true,
-			zoom: 17,
-		});
-
-		var styles = [
-			{
-				stylers: [
-					{ hue: "#00ffe6" },
-					{ saturation: -100 }
-				]
-			}
-		];
-
-		map.addStyle({
-			styledMapName:"Styled Map",
-			styles: styles,
-			mapTypeId: "map_style"
-		});
-
-		map.setStyle("map_style");
-		map.addMarker({
-			lat: -12.1368316,
-			lng: -76.984311,
-			icon: 'images/mapmarker.png',
-			title: '',
-			infoWindow: {
-				content: ''
-			}
-		});
-		</script>
-		<script type="text/javascript" src="js/ms-drop-down.js"></script>
-		<script type="text/javascript" src="js/easy-tabs.js"></script>
-		<script type="text/javascript" src="js/main.js" ></script>
-    </body>
-</html>
+<?php include 'tpl/footer.tpl.php'; ?>
