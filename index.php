@@ -311,7 +311,7 @@
 								<article class="post-content-container">
 									<div class="post-image-container">
 										<a href="blog-single.html" target="blank">
-											<img src="images/blog/blog-1.jpg" alt="blog post image" />
+											<img src="images/blog/Desarrollode-contenidos-facebook.png" alt="blog post image" />
 										</a>
 									</div>
 
@@ -344,7 +344,7 @@
 								<article class="post-content-container">
 									<div class="post-image-container">
 										<a href="blog-single_1.php" target="blank">
-											<img src="images/blog/blog-2.jpg" alt="blog post image" />
+											<img src="images/blog/Los_mejores_pasos_para_la_web_ideal.jpg" alt="blog post image" />
 										</a>
 									</div>
 
@@ -377,11 +377,11 @@
 								<article class="post-content-container">
 									<div class="post-image-container">
 										<a href="blog-single.html" target="blank">
-											<img src="images/blog/blog-3.jpg" alt="blog post image" />
+											<img src="images/blog/No-hacemos-paginasweb-mejoramos-negocios.jpg" alt="blog post image" />
 										</a>
 									</div>
 
-									<div class="post-title">
+									<div class="post-title" style="position: static;margin-top: 0">
 										<a href="blog-single_3.php" target="blank">
 											<h4>No hacemos páginas web, mejoramos negocios</h4>
 										</a>
@@ -410,7 +410,7 @@
 								<article class="post-content-container">
 									<div class="post-image-container">
 										<a href="#">
-											<img src="images/blog/blog-4.jpg" alt="blog post image" />
+											<img src="images/blog/Pagina_web_tarjeta_de_presentacion_son_2_cosas_diferentes.png" alt="blog post image" />
 										</a>
 									</div>
 
