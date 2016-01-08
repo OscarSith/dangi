@@ -10,12 +10,12 @@
 								<div class="ftsocial">
 									<ul class="social_sharenadea">
 										<li>
-											<a href="https://www.facebook.com/webRedox" target="blank">
+											<a href="https://www.facebook.com/dangipublicidad/" target="blank">
 												<i class="fa fa-facebook fa-2x"></i>
 											</a>
 										</li>
 										<li>
-											<a href="https://twitter.com/webredox" target="blank">
+											<a href="#" target="blank">
 												<i class="fa fa-twitter fa-2x"></i>
 											</a>
 										</li>
@@ -25,7 +25,7 @@
 											</a>
 										</li>
 										<li>
-											<a href="#">
+											<a href="https://www.youtube.com/user/dangiapublicidad" target="_blank">
 												<i class="fa fa-youtube fa-2x"></i>
 											</a>
 										</li>
