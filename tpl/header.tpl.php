@@ -67,34 +67,34 @@ if ($path == 'index.php') {
 									<li>
 										<a href="#">La Agencia</a>
 										<ul class="dropDown sub-menu">
-											<li><a href="aboutus.html">Nosotros</a></li>
-											<li><a href="portfolio-single2.html">Campañas sociales</a></li>
+											<li><a href="aboutus.php">Nosotros</a></li>
+											<li><a href="portfolio-single2.php">Campañas sociales</a></li>
 										</ul>
 									</li>
 									<li>
 										<a href="#">Servicios</a>
 										<ul class="dropDown sub-menu">
-											<li><a href="portfolio-single.html">Planning</a></li>
-											<li><a href="portfolio-single.html">Desarrollo Web</a></li>
-											<li><a href="portfolio-single.html">Herramientas Digitales</a></li>
-											<li><a href="portfolio-single.html">Social Media</a></li>
-											<li><a href="portfolio-single.html">Diseño Publicitario</a></li>
-											<li><a href="portfolio-single.html">Audiovisuales</a></li>
+											<li><a href="portfolio-single.php">Planning</a></li>
+											<li><a href="portfolio-single.php">Desarrollo Web</a></li>
+											<li><a href="portfolio-single.php">Herramientas Digitales</a></li>
+											<li><a href="portfolio-single.php">Social Media</a></li>
+											<li><a href="portfolio-single.php">Diseño Publicitario</a></li>
+											<li><a href="portfolio-single.php">Audiovisuales</a></li>
 										</ul>
 									</li>
 									<li>
 										<a href="#">Portafolio</a>
 										<ul class="dropDown sub-menu">
-											<li><a href="blog-col2.html">Planning</a></li>
-											<li><a href="portfolio-3col.html">Desarrollo Web</a></li>
-											<li><a href="blog-wide.html">Herramientas Digitales</a></li>
-											<li><a href="blog-wide2.html">Social Media</a></li>
-											<li><a href="portfolio-3col.html">Diseño Publicitario</a></li>
-											<li><a href="portfolio-3col.html">Audiovisuales</a></li>
+											<li><a href="blog-col2.php">Planning</a></li>
+											<li><a href="portfolio-3col.php">Desarrollo Web</a></li>
+											<li><a href="blog-wide.php">Herramientas Digitales</a></li>
+											<li><a href="blog-wide2.php">Social Media</a></li>
+											<li><a href="portfolio-3col.php">Diseño Publicitario</a></li>
+											<li><a href="portfolio-3col.php">Audiovisuales</a></li>
 										</ul>
 									</li>
-									<li><a href="blog.html">Blog</a></li>
-									<li><a href="contact.html">Contáctenos</a></li>
+									<li><a href="blog.php">Blog</a></li>
+									<li><a href="contact.php">Contáctenos</a></li>
 								</ul>
 							</nav>
 

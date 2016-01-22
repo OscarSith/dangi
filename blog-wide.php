@@ -1,158 +1,4 @@
-<!DOCTYPE html>
-<!--[if lt IE 7 ]> <html class="ie ie6 no-js" lang="en"> <![endif]-->
-<!--[if IE 7 ]>    <html class="ie ie7 no-js" lang="en"> <![endif]-->
-<!--[if IE 8 ]>    <html class="ie ie8 no-js" lang="en"> <![endif]-->
-<!--[if IE 9 ]>    <html class="ie ie9 no-js" lang="en"> <![endif]-->
-<!--[if gt IE 9]><!--><html class="no-js" lang="en"><!--<![endif]-->
-<head>
-<meta http-equiv="content-type" content="text/html;charset=utf-8" />
-<!-- Metas Page details-->
-<title>Nadea - Blog Wide</title>
-<meta name="description" content="Multipurpose Bootstrap HTML Template">
-<meta name="author" content="">
-<!-- Mobile Specific Meta -->
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-<!--main style-->
-<link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap.css">
-<link rel="stylesheet" type="text/css" media="screen" href="css/main-style.css">
-<link rel="stylesheet" type="text/css" media="screen" href="css/css3-animations.css">
-<link rel="stylesheet" type="text/css" media="screen" href="css/responsive.css">
-<link type="text/css" rel="stylesheet" id="theme" href="css/jquery-ui-1.8.16.custom.css"/>
-<link type="text/css" rel="stylesheet" href="css/lightbox.min.css"/>
-
-<!-- Revolution slider css -->
-<link rel="stylesheet" href="rs-plugin/css/settings.css"/>
-<link rel="stylesheet" href="rs-plugin/css/revolution.css"/>
-
-<!-- Owl Carousel css -->
-<link href="js/lib/owl-carousel/owl.carousel.css" rel="stylesheet">
-<link href="js/lib/owl-carousel/owl.theme.css" rel="stylesheet">
-<link href="js/lib/owl-carousel/owl.transitions.css" rel="stylesheet">
-
-<!-- font icon css style-->
-<link rel="stylesheet" href="font/css/font-awesome.css">
-<link rel="stylesheet" href="font/icons/iconstyle.css">
-
-<!--google font style-->
-<link href='http://fonts.googleapis.com/css?family=Oswald:400,700,300' rel='stylesheet' type='text/css'>
-<!--font-family: Oswald;-->
-<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
-<!--font-family: Open Sans, 'sans-serif';-->
-
-<!-- Favicons -->
-<link rel="shortcut icon" href="images/favicon.ico">
-<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
-<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-72x72.png">
-<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-114x114.png">
-
-</head>
-    <body id="top" class="ndblogwd">
-	<!-- PRELOADER-->
-		<div id="preloader">
-			<div class="preloader-container">
-				<h4 class="preload-logo triggerAnimation animated" data-animate="fadeInLeft">NADEA</h4>
-				<h4 class="back-logo">NADEA.</h4>
-				<img src="images/preloader.gif" class="preload-gif" alt="preload-image">
-			</div>
-		</div>
-		
-		<!-- END PRELOADER -->
-	
-		<!-- Header Section Start -->
-		<header class="header headerStyle" id="header">
-			<div class="ndheader" id="ndheader">
-				<div class="sticky scrollHeaderWrapper">
-					<div class="container">
-						<div class="row">
-							<div class="col-sm-12">
-								<div class="logo pull-left">
-									<a class="navbar-brand" href="index.html">
-										Nade<span class="font-color">a.</span>
-									</a>
-									<!-- You can Use your Image
-									<a href="index.html"><img src="#" alt="Logo" /></a>
-									-->
-								</div>
-
-								<nav class="mainMenu mainNav pull-right" id="mainNav">
-									<ul class="navTabs">
-										<li>
-											<a href="#">Home</a>
-											<ul class="dropDown sub-menu">
-												<li><a href="index-1.html">Home 1</a></li>
-												<li><a href="index-2.html">Home 2</a></li>
-												<li><a href="index-3.html">Home 3</a></li>
-												<li><a href="index-4.html">Home 4</a></li>
-												<li><a href="index-5.html">Home 5</a></li>
-												<li><a href="index-6.html">Home 6</a></li>
-												<li><a href="index-7.html">Home 7</a></li>
-												<li><a href="index-8.html">Home 8</a></li>
-												<li><a href="index-9.html">Home 9</a></li>
-											</ul><!-- end of dropdown -->
-										</li>
-										<li>
-											<a href="#">Header Version</a>
-											<ul class="dropDown sub-menu">
-												<li><a href="header-v1.html">Header Version One</a></li>
-												<li><a href="header-v2.html">Header Version Two</a></li>
-												<li><a href="header-v3.html">Header Version Three</a></li>
-												<li><a href="header-v4.html">Header Version Four</a></li>
-												<li><a href="header-v5.html">Header Version Five</a></li>
-											</ul><!-- end of dropdown -->
-										</li>
-										<li>
-											<a href="#">Features</a>
-											<ul class="dropDown sub-menu">
-												<li><a href="page-services.html">Services</a></li>
-												<li><a href="page-pricetable.html">Pricing Tables</a></li>
-												<li><a href="aboutus.html">About Us</a></li>
-												<li><a href="page-element.html">Elements</a></li>
-												<li><a href="404page.html">404 Error</a></li>
-											</ul><!-- end of dropdown -->
-										</li>
-										<li>
-											<a href="#">Portfolio</a>
-											<ul class="dropDown sub-menu">
-												<li><a href="portfolio-single.html">Portfolio Single</a></li>
-												<li><a href="portfolio-single2.html">Portfolio Single 2</a></li>
-												<li><a href="portfolio-wide.html">Portfolio Wide</a></li>
-												<li><a href="portfolio-2col.html">Portfolio 2 Columns</a></li>
-												<li><a href="portfolio-3col.html">Portfolio 3 Columns</a></li>
-												<li><a href="portfolio-4col.html">Portfolio 4 Columns</a></li>
-											</ul><!-- end of dropdown -->
-										</li>
-										<li>
-											<a href="#" class="active">Blog</a>
-											<ul class="dropDown sub-menu">
-												<li><a href="blog.html">Blog Right SideBar</a></li>
-												<li><a href="blog-2.html">Blog Left Side Bar</a></li>
-												<li><a href="blog-col2.html">Blog Col-2</a></li>
-												<li><a href="blog-wide.html" class="active">Blog Wide</a></li>
-												<li><a href="blog-wide2.html">Blog Wide-2</a></li>
-												<li><a href="blog-single.html">Blog Single</a></li>
-											</ul><!-- end of dropdown -->
-										</li>
-										<li>
-											<a href="contact.html">Contact</a>
-										</li>
-										<li>
-											<a href="#">Purshes</a>
-										</li>
-										
-									</ul><!-- end of nav tabs -->
-								</nav><!-- end of main nav -->
-					  
-								<a href="#" class="generalLink" id="responsiveMainNavToggler"><i class="fa fa-bars"></i></a>
-								<div class="clearfix"></div><!-- end of clearfix -->
-								<div class="responsiveMainNav"></div><!-- end of responsive main nav -->
-							  
-							</div><!-- end fo col 12 -->
-						</div><!-- end of row -->
-					</div><!-- end of container -->
-				</div><!-- end of sticky -->
-			</div><!-- end of ndheader -->
-		</header><!-- end of header -->
-		
+<?php include 'tpl/header.tpl.php'; ?>
 		<!-- Nadea PageTitle Section Start -->
 		<section id="page-title" class="clear skype-bg">
 			<div class="container">
@@ -174,7 +20,7 @@
 			</div><!-- .container end -->
 		</section>
 		<!-- Nadea PageTitle Section End -->
-		
+
 		<!-- Nadea Services Section Start -->
 		<section id="ndblogfullpage" class="ndblogfullwd clear">
 			<div class="container">
@@ -188,7 +34,7 @@
 											<img src="images/blog/post-wide-img.jpg" alt="blog post image"  class="img-responsive" />
 										</a>
 									</div>
-									
+
 									<div class="blogdateinfotextfw">
 										<div class="ndtitleinfop">
 											<div class="blogpost-title blogpostfw-title">
@@ -196,7 +42,7 @@
 													<h2>Lorem Ipsum</h2>
 												</a>
 											</div><!-- Blog Title-->
-											
+
 											<div class="post-info post-info-wd">
 												<div class="postfinfo-wd">
 													<span class="icon-clock-lp"><i class="icon_clock_alt"></i></span>
@@ -216,7 +62,7 @@
 											</div><!-- .post-info end -->
 
 											<p>
-												Luctus et ultrices posuere cubilia Curae. Donec nibh sapien, molestie quis elementum et, dignissim non atino ipsum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec sed mauris lorem. Sed sit amet mauris eu purus consectetur blandit sed et lacus. Cras tellus enim, sagittis aer varius faucibus, molestie in dolor. Mauris mollis adipiscing elit, in vulputate est volutpat vitae. Pellentesque convallis nisl sit amet lacus luctus vel consequat ligula suscipit. Aliquam et metus sed tortor eleifend pretium non id urna. Fusce in augue leo, sed cursus nisl. Nullam vel tellus massa. Vivamus porttitor rutrum libero ac mattis. Aliquam congue malesuada mauris vitae dignissim. Mauris vehicula placerat justo ac cursus. Ut interdum tortor quis elit varius rhoncus. 
+												Luctus et ultrices posuere cubilia Curae. Donec nibh sapien, molestie quis elementum et, dignissim non atino ipsum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec sed mauris lorem. Sed sit amet mauris eu purus consectetur blandit sed et lacus. Cras tellus enim, sagittis aer varius faucibus, molestie in dolor. Mauris mollis adipiscing elit, in vulputate est volutpat vitae. Pellentesque convallis nisl sit amet lacus luctus vel consequat ligula suscipit. Aliquam et metus sed tortor eleifend pretium non id urna. Fusce in augue leo, sed cursus nisl. Nullam vel tellus massa. Vivamus porttitor rutrum libero ac mattis. Aliquam congue malesuada mauris vitae dignissim. Mauris vehicula placerat justo ac cursus. Ut interdum tortor quis elit varius rhoncus.
 											</p>
 											<div class="readmore">
 												<a class="read-more" href="blog-single.html">Read More<i class="arrow_right"></i></a>
@@ -228,7 +74,7 @@
 							<br/>
 						</div><!-- 1 post row end-->
 					</div><!-- 1 post row end-->
-					
+
 					<div class="row">
 						<div class="col-sm-12">
 							<div class="item animation" data-animation="animation-fade-in-up">
@@ -238,7 +84,7 @@
 											<img src="images/blog/post-wide-img1.jpg" alt="blog post image"  class="img-responsive" />
 										</a>
 									</div>
-									
+
 									<div class="blogdateinfotextfw">
 										<div class="ndtitleinfop">
 											<div class="blogpost-title blogpostfw-title">
@@ -246,7 +92,7 @@
 													<h2>Lorem Ipsum</h2>
 												</a>
 											</div><!-- Blog Title-->
-											
+
 											<div class="post-info post-info-wd">
 												<div class="postfinfo-wd">
 													<span class="icon-clock-lp"><i class="icon_clock_alt"></i></span>
@@ -266,7 +112,7 @@
 											</div><!-- .post-info end -->
 
 											<p>
-												Luctus et ultrices posuere cubilia Curae. Donec nibh sapien, molestie quis elementum et, dignissim non atino ipsum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec sed mauris lorem. Sed sit amet mauris eu purus consectetur blandit sed et lacus. Cras tellus enim, sagittis aer varius faucibus, molestie in dolor. Mauris mollis adipiscing elit, in vulputate est volutpat vitae. Pellentesque convallis nisl sit amet lacus luctus vel consequat ligula suscipit. Aliquam et metus sed tortor eleifend pretium non id urna. Fusce in augue leo, sed cursus nisl. Nullam vel tellus massa. Vivamus porttitor rutrum libero ac mattis. Aliquam congue malesuada mauris vitae dignissim. Mauris vehicula placerat justo ac cursus. Ut interdum tortor quis elit varius rhoncus. 
+												Luctus et ultrices posuere cubilia Curae. Donec nibh sapien, molestie quis elementum et, dignissim non atino ipsum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec sed mauris lorem. Sed sit amet mauris eu purus consectetur blandit sed et lacus. Cras tellus enim, sagittis aer varius faucibus, molestie in dolor. Mauris mollis adipiscing elit, in vulputate est volutpat vitae. Pellentesque convallis nisl sit amet lacus luctus vel consequat ligula suscipit. Aliquam et metus sed tortor eleifend pretium non id urna. Fusce in augue leo, sed cursus nisl. Nullam vel tellus massa. Vivamus porttitor rutrum libero ac mattis. Aliquam congue malesuada mauris vitae dignissim. Mauris vehicula placerat justo ac cursus. Ut interdum tortor quis elit varius rhoncus.
 											</p>
 											<div class="readmore">
 												<a class="read-more" href="blog-single.html">Read More<i class="arrow_right"></i></a>
@@ -278,7 +124,7 @@
 							<br/>
 						</div><!-- 2 post col 12 end-->
 					</div><!-- 2 post row end-->
-					
+
 					<div class="row">
 						<div class="col-sm-12">
 							<div class="item animation" data-animation="animation-fade-in-up">
@@ -288,7 +134,7 @@
 											<img src="images/blog/post-wide-img2.jpg" alt="blog post image" class="img-responsive" />
 										</a>
 									</div>
-									
+
 									<div class="blogdateinfotextfw">
 										<div class="ndtitleinfop">
 											<div class="blogpost-title blogpostfw-title">
@@ -296,7 +142,7 @@
 													<h2>Lorem Ipsum</h2>
 												</a>
 											</div><!-- Blog Title-->
-											
+
 											<div class="post-info post-info-wd">
 												<div class="postfinfo-wd">
 													<span class="icon-clock-lp"><i class="icon_clock_alt"></i></span>
@@ -316,7 +162,7 @@
 											</div><!-- .post-info end -->
 
 											<p>
-												Luctus et ultrices posuere cubilia Curae. Donec nibh sapien, molestie quis elementum et, dignissim non atino ipsum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec sed mauris lorem. Sed sit amet mauris eu purus consectetur blandit sed et lacus. Cras tellus enim, sagittis aer varius faucibus, molestie in dolor. Mauris mollis adipiscing elit, in vulputate est volutpat vitae. Pellentesque convallis nisl sit amet lacus luctus vel consequat ligula suscipit. Aliquam et metus sed tortor eleifend pretium non id urna. Fusce in augue leo, sed cursus nisl. Nullam vel tellus massa. Vivamus porttitor rutrum libero ac mattis. Aliquam congue malesuada mauris vitae dignissim. Mauris vehicula placerat justo ac cursus. Ut interdum tortor quis elit varius rhoncus. 
+												Luctus et ultrices posuere cubilia Curae. Donec nibh sapien, molestie quis elementum et, dignissim non atino ipsum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec sed mauris lorem. Sed sit amet mauris eu purus consectetur blandit sed et lacus. Cras tellus enim, sagittis aer varius faucibus, molestie in dolor. Mauris mollis adipiscing elit, in vulputate est volutpat vitae. Pellentesque convallis nisl sit amet lacus luctus vel consequat ligula suscipit. Aliquam et metus sed tortor eleifend pretium non id urna. Fusce in augue leo, sed cursus nisl. Nullam vel tellus massa. Vivamus porttitor rutrum libero ac mattis. Aliquam congue malesuada mauris vitae dignissim. Mauris vehicula placerat justo ac cursus. Ut interdum tortor quis elit varius rhoncus.
 											</p>
 											<div class="readmore">
 												<a class="read-more" href="blog-single.html">Read More<i class="arrow_right"></i></a>
@@ -328,9 +174,9 @@
 							<br/>
 						</div><!-- 3 post col 12 end-->
 					</div><!-- 3 post row end-->
-					
+
 				</div><!-- row blog section end-->
-				
+
 				<!-- Pagination Section Start -->
 				<div class="row">
 					<div class="blogfuw-pag animation" data-animation="animation-fade-in-up">
@@ -347,7 +193,7 @@
 			</div>
 		</section>
 		<!-- Nadea Services Section End-->
-		
+
 		<!-- Nadea Recent Work Start -->
 		<section class="ndproeleblg clear animation" data-animation="animation-fade-in-up" id="ndrecentworks">
 			<div class="container">
@@ -363,43 +209,43 @@
 						<li class="web col-sm-3">
 							<div class="lightCon"> <span class="hoverBox"> <span class="smallIcon"> <a href="images/projects/big-images/1.jpg" title="Project Title2" class="zoom lb lb_warsaw1 image-responsive">	<i class="icon_search"></i> </a> <span class="border-right"> </span> <a href="#" title="Project Link" target="_blank" class="linKed"> <i class="icon_link"> </i> </a></span> </span> <img src="images/projects/thumb-images/1.jpg" alt="" > </div>
 						</li><!-- item 1-->
-					
+
 						<li class="web photo col-sm-3">
 							<div class="portfolio4col">
 								<div class="lightCon"> <span class="hoverBox"> <span class="smallIcon"> <a href="images/projects/big-images/2.jpg" title="Project Title2" class="zoom lb lb_warsaw1 image-responsive"><i class="icon_search"></i></a> <span class="border-right"></span> <a href="#" title="Project Link" target="_blank" class="linKed"> <i class="icon_link"></i> </a> </span> </span> <img src="images/projects/thumb-images/2.jpg" alt="" > </div>
 							</div>
 						</li><!-- item 2-->
-					
+
 						<li class="photo col-sm-3">
 							<div class="portfolio4col">
 								<div class="lightCon"> <span class="hoverBox"> <span class="smallIcon"> <a href="images/projects/big-images/3.jpg" title="Project Title3" class="zoom lb lb_warsaw1 image-responsive"><i class="icon_search"></i></a> <span class="border-right"></span> <a href="#" title="Project Link" target="_blank" class="linKed"> <i class="icon_link"></i> </a> </span> </span> <img src="images/projects/thumb-images/3.jpg" alt="" > </div>
 							</div>
 						</li><!-- item 3-->
-					
+
 						<li class="design col-sm-3">
 							<div class="portfolio4col">
 								<div class="lightCon"> <span class="hoverBox"> <span class="smallIcon"> <a href="images/projects/big-images/4.jpg" title="Project Title4" class="zoom lb lb_warsaw1 image-responsive"><i class="icon_search"></i></a> <span class="border-right"></span> <a href="#" title="Project Link" target="_blank" class="linKed"> <i class="icon_link"></i> </a> </span> </span> <img src="images/projects/thumb-images/4.jpg" alt="" > </div>
 							</div>
 						</li><!-- item 4-->
-					
+
 						<li class="web col-sm-3">
 							<div class="portfolio4col">
 								<div class="lightCon"> <span class="hoverBox"> <span class="smallIcon"> <a href="images/projects/big-images/5.jpg" title="Project Title5" class="zoom lb lb_warsaw1 image-responsive"><i class="icon_search"></i></a> <span class="border-right"></span> <a href="#" title="Project Link" target="_blank" class="linKed"> <i class="icon_link"></i> </a> </span> </span> <img src="images/projects/thumb-images/5.jpg" alt="" > </div>
 							</div>
 						</li><!-- item 5-->
-					
+
 						<li class="web design photo col-sm-3">
 							<div class="portfolio4col">
 								<div class="lightCon"> <span class="hoverBox"> <span class="smallIcon"> <a href="images/projects/big-images/6.jpg" title="Project Title6" class="zoom lb lb_warsaw1 image-responsive"><i class="icon_search"></i></a> <span class="border-right"></span> <a href="#" title="Project Link" target="_blank" class="linKed"> <i class="icon_link"></i> </a> </span> </span> <img src="images/projects/thumb-images/6.jpg" alt="" > </div>
 							</div>
 						</li><!-- item 6-->
-					
+
 						<li class="photo web col-sm-3">
 							<div class="portfolio4col">
 								<div class="lightCon"> <span class="hoverBox"> <span class="smallIcon"> <a href="images/projects/big-images/7.jpg" title="Project Title7" class="zoom lb lb_warsaw1 image-responsive"><i class="icon_search"></i></a> <span class="border-right"></span> <a href="#" title="Project Link" target="_blank" class="linKed"> <i class="icon_link"></i> </a> </span> </span> <img src="images/projects/thumb-images/7.jpg" alt="" > </div>
 							</div>
 						</li><!-- item 7-->
-					
+
 						<li class="web design photo col-sm-3">
 							<div class="portfolio4col">
 								<div class="lightCon"> <span class="hoverBox"> <span class="smallIcon"> <a href="images/projects/big-images/8.jpg" title="Project Title8" class="zoom lb lb_warsaw1 image-responsive"><i class="icon_search"></i></a> <span class="border-right"></span> <a href="#" title="Project Link" target="_blank" class="linKed"> <i class="icon_link"></i> </a> </span> </span> <img src="images/projects/thumb-images/8.jpg" alt="" > </div>
@@ -411,7 +257,7 @@
 		</section>
 		<div class="ndheight"></div>
 		<!--Recent Work End -->
-		
+
 		<!-- Newslater Section Start -->
 		<section class="clear skype-bg" id="ndnewslater" >
 			<div class="container">
@@ -438,7 +284,7 @@
 			</div><!-- container end -->
 		</section>
 		<!-- Newslater Section End -->
-		
+
 		<!-- OurClient Section Start -->
 		<div class="clear white-bg animation" data-animation="animation-fade-in-up" id="ndOurClient2">
 			<div class="container">
@@ -469,7 +315,7 @@
 								<img src="images/client/logo5.png" alt="Owl Image">
 							</a>
 						</div><!-- Client 5-->
-						
+
 						<div class="item owl-clientimg">
 							<a class="singleClient" href="#" title="client">
 								<img src="images/client/logo1.png" alt="Owl Image">
@@ -495,151 +341,9 @@
 								<img src="images/client/logo5.png" alt="Owl Image">
 							</a>
 						</div><!-- Client 5-->
-						
+
 					</div>
 				</div><!-- row end -->
 			</div><!-- container end -->
 		</div>
-		<!-- OurClient Section End -->
-		
-		<!-- Footer Section Start -->
-		<section class="footer-bg clear animation" data-animation="animation-fade-in-up" id="footer">
-			<div class="rows">
-				<div class="col-sm-5 ndft-no-padding footerbg-left">
-					<div class="footer-left">
-						<div class="col-sm-12 fotter-nopadd">
-							<div class="ft_left">
-								<h1 class="texth1">Say hello</h1>
-								<h3 class="head_ft">we'd love hearing <br/>from you</h3>
-								<div class="ftsocial">
-									<ul class="social_sharenadea">
-										<li><a href="https://www.facebook.com/webRedox" target="blank"><i class="fa fa-facebook fa-1x"></i></a></li>
-										<li><a href="https://twitter.com/webredox" target="blank"><i class="fa fa-twitter fa-1x"></i></a></li>
-										<li><a href="#"><i class="fa fa-skype fa-1x"></i></a></li>
-									</ul>
-								</div>
-							</div>
-						</div><!-- 1Col end-->
-					</div><!-- footer left end -->
-				</div><!-- col 5 end -->
-				
-				<div class="col-sm-7 ndft-no-padding footerbg-right">
-					<div class="footer-right">
-						<div class="col-sm-6 fotter-nopadd">
-							<div class="ft_center">
-								<h3 class="fthead">Latest Post</h3>
-								<ul class="nadea_recentposts">
-									<li> <!-- 1 -->
-										<div class="pull-left">
-											<img src="images/blog/ftblog1.png" alt="Thumbnail">
-										</div>
-										<div class="pull-right text">
-											<h5 class="ftblog_head"><a href="#" title="Lorem Ipsum">Lorem Ipsum</a></h5>
-											<p class="date-time">January 12, 2014</p>
-										</div>
-										<div class="ftmin-height"></div>
-									</li>
-									<li> <!-- 2 -->
-										<div class="pull-left">
-											<img src="images/blog/ftblog2.png" alt="Thumbnail">
-										</div>
-										<div class="pull-right text">
-											<h5 class="ftblog_head"><a href="#" title="Sed Lectus">Sed Lectus</a></h5>
-											<p class="date-time">January 12, 2014</p>
-										</div>
-										<div class="ftmin-height"></div>
-									</li>
-									
-									<li> <!-- 3 -->
-										<div class="pull-left">
-											<img src="images/blog/ftblog3.png" alt="Thumbnail">
-										</div>
-										<div class="pull-right text">
-											<h5 class="ftblog_head"><a href="#" title="Video post">Video post</a></h5>
-											<p class="date-time">January 12, 2014</p>
-										</div>
-									</li>
-								</ul>
-							</div><!-- ft center end -->
-						</div><!-- 6Col end-->
-						
-						<div class="col-sm-6 fotter-nopadd2">
-							<div class="nadea_ContInro">
-								<h3 class="fthead">Contact Info</h3>
-								<ul class="address">
-									<li>
-										<div class="pull-left">
-											<div class="ftIcon icon-pin-add">
-												<i class="ndlocationIcon ndftIcon"></i>
-											</div>
-										</div>
-										<p>Corporation, Inc.<br/>123 Aolsom Ave, Suite 600, New York</p>
-									</li>
-									<li>
-										<div class="pull-left">
-											<div class="ftIcon icon-phone-add">
-												<i class="ndphoneeIcon ndftIcon"></i>
-											</div>
-										</div>
-										<p>(123) 456-7890<br/>(123) 0987-654</p>
-									</li>
-									<li>
-										<div class="pull-left">
-											<div class="ftIcon icon-from">
-												<i class="ndformIcon ndftIcon"></i>
-											</div>
-										</div>
-										<p>Email:<a class="mail-box" href="mailto:#"> email@gmail.com</a></p>
-									</li>
-								</ul>
-							</div>
-						</div><!-- 6Col end-->
-					</div><!-- .test row end -->
-				</div><!-- col 7 end -->
-			</div><!-- rows end -->
-		
-			<!-- Footer Bottom Start-->
-			<div class="footer-bottom clear">
-				<div class="container">
-					<div class="row">
-						<div class="col-sm-6">
-							<ul class="footer-nav pull-left">
-								<li><a href="index.html">Home</a></li>
-								<li><a href="page-element.html">Features</a></li>
-								<li><a href="portfolio-single.html">Portfolio</a></li>
-								<li><a href="blog-wide2.html">Blog</a></li>
-								<li><a href="contact.html">Contact</a></li>
-								<li><a href="#">Purchase</a></li>
-							</ul>
-						</div><!-- col 6 end -->
-						<div class="col-sm-6">
-							<p class="copywrite pull-right">&copy; 2015 Nade<span class="font-color">a</span>  -  Build with Passion by <small class="dsauthor">WebRedox</small></p>
-						</div><!-- col 6 end -->
-					</div><!-- row end -->
-				</div><!-- container end -->
-			</div><!-- Footer Bottom End -->
-		</section><!-- footer section end  -->
-		
-		<div class="go-up"><img src="images/back-top.png" alt="Back-To-Top"/></div>
-		<!-- Back To Top end  -->
-	
-	
-		<!-- Custom Scripts-->
-		<script src="js/jquery.js"></script>
-		<script src="js/bootstrap.js"></script>
-		<!-- JavaScript -->
-		<script src="js/lib/jquery.appear.js"></script>
-		<script src="js/lib/owl-carousel/owl.carousel.min.js"></script>
-		<!--for portfolio jquery-->
-		<script src="js/jquery.isotope.min.js" type="text/javascript"></script>
-		<script type="text/javascript" src="js/jquery.ui.widget.min.js"></script> 
-		<script type="text/javascript" src="js/jquery.ui.rlightbox.js"></script>
-		<!-- main js-->
-		
-		 
-		<script type="text/javascript" src="js/ms-drop-down.js"></script>
-		<script type="text/javascript" src="js/easy-tabs.js"></script>
-		<script type="text/javascript" src="js/main.js" ></script>
-      
-    </body>
-</html>
+<?php include 'tpl/footer.tpl.php'; ?>
