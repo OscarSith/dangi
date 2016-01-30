@@ -5,7 +5,7 @@
 				<div class="row">
 					<div class="col-sm-4">
 						<div class="page-title">
-							<h1>DESARROLLO WEB</h1>
+							<h1>PLANNING</h1>
 						</div>
 					</div><!-- col 6-->
 					<div class="col-sm-8">
@@ -26,27 +26,23 @@
 								<div class="post-image-container">
 									<div  class="propage-postslide">
 										<div class="item">
-											<img src="diseñoweb-dangi2.png" class="img-responsive" alt="blog post image" />
+											<img src="planning-dangi.png" class="img-responsive" alt="blog post image" />
 										</div><!--Slide 1 -->
 									</div>
 
 								</div>
 
 								<div class="blogpost-title">
-									<h2>WEB</h2>
+									<h2>LA PLANIFICACIÓN </h2>
 								</div>
                       
                                 <!-- Blog Title--><!-- .post-info end -->
 <p></p>
-								<p>Una web es contar con un trabajador más, el cual labora las 24 horas del día y los 7 días de semana sin descansar. Se encargar de explicar y mostrar tus productos y servicios con el objetivo principal de generar ventas.</p>
-								<p>El ecosistema digital no es más que todas las herramientas que utilizamos para realizar una campaña de publicidad integral en Internet. No basta contar con una página web y esperar que caigan los clientes. Hoy en día tenemos que aprovechar todas las plataformas posibles para difundir nuestro mensaje. Redes sociales, blogs, email, mercados libres y otros segundas manos son herramientas que tenemos que entender para que sean parte de nuestra estrategia.</p>
+								<p>La marca debe evidenciar en todo momento su razón de ser. Un trabajo de planificación debe ser un buen ejercicio de comunicación constante en todos los procesos comerciales de la empresa y que permita conectar con las personas.</p>
+								<p>Nuestro trabajo es determinar la dirección de los medios para alcanzar el objetivo del plan de marketing, ya sea para el posicionamiento de marca o generar conversiones. </p>
 
 								<!-- pa-->
-								<nav class="ndporpagination">
-									<ul class="pager">
-										<li class="ndarrowleft"><a href="#"><i class="arrow_left"></i>Portafolio</a><a href="#"><i class="arrow_right"></i></a></li>
-									</ul>
-								</nav>
+								<nav class="ndporpagination"> </nav>
 							</div><!--Item 1 -->
 
 						</div>
@@ -60,31 +56,17 @@
 							<!-- .ProjectDtails start -->
 							<div class="ndwidget_tag clear animation" data-animation="animation-fade-in-right">
 								<div class="sbminhight"></div>
-								<h3>DETALLES DE PRODUCTO</h3>
+								<h3>DETALLES </h3>
 								<ul class="ndprojectdt">
-									<li><i class="icon_check_alt2"></i><a href="#">HTML5/CSS</a></li>
-									<li><i class="icon_check_alt2"></i><a href="#">Web Design</a></li>
-									<li><i class="icon_check_alt2"></i><a href="#">Technology </a></li>
-									<li><i class="icon_check_alt2"></i><a href="#">WordPress </a></li>
+									<li><i class="icon_check_alt2"></i>Determinar objetivos</li>
+								    <li><i class="icon_check_alt2"></i>Segmentar</li>
+									<li><i class="icon_check_alt2"></i>Investigar</li>
+									<li><i class="icon_check_alt2"></i>Medir</li>
 								</ul>
 							</div>
 							<!-- .ProjectDtails end -->
 
-							<!-- .NdWidget-Tag start -->
-							<div class="ndwidget_tag clear animation" data-animation="animation-fade-in-right">
-								<div class="sbminhight"></div>
-								<h3>Tag Widget</h3>
-								<ul class="tagsec">
-									<li><a href="">HTML5</a></li>
-									<li><a href="">Css3</a></li>
-									<li><a href="">Photoshop</a></li>
-									<li><a href="">Wordpress</a></li>
-									<li><a href="">Joomla</a></li>
-									<li><a href="">Diseño web</a></li>
-								</ul>
-							
-							</div>
-							<!-- .NdWidget-Tag end -->
+							<!-- .NdWidget-Tag start --><!-- .NdWidget-Tag end -->
 
 
 							<!-- .NdWidget-Tag start -->

@@ -5,7 +5,7 @@
 				<div class="row">
 					<div class="col-sm-4">
 						<div class="page-title">
-							<h1>DESARROLLO WEB</h1>
+							<h1>AUDIOVISUAL</h1>
 						</div>
 					</div><!-- col 6-->
 					<div class="col-sm-8">
@@ -26,14 +26,14 @@
 								<div class="post-image-container">
 									<div  class="propage-postslide">
 										<div class="item">
-											<img src="diseñoweb-dangi2.png" class="img-responsive" alt="blog post image" />
+											<img src="audiovisual-dangi.png" class="img-responsive" alt="blog post image" />
 										</div><!--Slide 1 -->
 									</div>
 
 								</div>
 
 								<div class="blogpost-title">
-									<h2>WEB</h2>
+									<h2>POST PRODUCCIÓN</h2>
 								</div>
                       
                                 <!-- Blog Title--><!-- .post-info end -->
@@ -60,31 +60,17 @@
 							<!-- .ProjectDtails start -->
 							<div class="ndwidget_tag clear animation" data-animation="animation-fade-in-right">
 								<div class="sbminhight"></div>
-								<h3>DETALLES DE PRODUCTO</h3>
+								<h3>SERVICIOS</h3>
 								<ul class="ndprojectdt">
-									<li><i class="icon_check_alt2"></i><a href="#">HTML5/CSS</a></li>
-									<li><i class="icon_check_alt2"></i><a href="#">Web Design</a></li>
-									<li><i class="icon_check_alt2"></i><a href="#">Technology </a></li>
-									<li><i class="icon_check_alt2"></i><a href="#">WordPress </a></li>
+									<li><i class="icon_check_alt2"></i><a href="#">Spot publicitarios </a></li>
+									<li><i class="icon_check_alt2"></i><a href="#">Reel</a></li>
+									<li><i class="icon_check_alt2"></i><a href="#">Presentaciones Animadas</a></li>
+									<li><i class="icon_check_alt2"></i><a href="#">Institucionales</a></li>
 								</ul>
 							</div>
 							<!-- .ProjectDtails end -->
 
-							<!-- .NdWidget-Tag start -->
-							<div class="ndwidget_tag clear animation" data-animation="animation-fade-in-right">
-								<div class="sbminhight"></div>
-								<h3>Tag Widget</h3>
-								<ul class="tagsec">
-									<li><a href="">HTML5</a></li>
-									<li><a href="">Css3</a></li>
-									<li><a href="">Photoshop</a></li>
-									<li><a href="">Wordpress</a></li>
-									<li><a href="">Joomla</a></li>
-									<li><a href="">Diseño web</a></li>
-								</ul>
-							
-							</div>
-							<!-- .NdWidget-Tag end -->
+							<!-- .NdWidget-Tag start --><!-- .NdWidget-Tag end -->
 
 
 							<!-- .NdWidget-Tag start -->
