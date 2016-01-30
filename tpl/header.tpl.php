@@ -59,7 +59,7 @@ if ($path == 'index.php') {
 								<!-- <a class="navbar-brand" href="index.html">
 									Nade<span class="font-color">a.</span>
 								</a> -->
-								<a href="index.html" id="logo"><img src="images/logo-dangi.png" alt="Logo" /></a>
+								<a href="index.php" id="logo"><img src="images/logo-dangi.png" alt="Logo" /></a>
 							</div>
 							<nav class="mainMenu mainNav pull-right" id="mainNav">
 								<ul class="navTabs">
@@ -85,12 +85,12 @@ if ($path == 'index.php') {
 									<li>
 										<a href="#">Portafolio</a>
 										<ul class="dropDown sub-menu">
-											<li><a href="blog-col2.php">Planning</a></li>
-											<li><a href="portfolio-3col.php">Desarrollo Web</a></li>
-											<li><a href="blog-wide.php">Herramientas Digitales</a></li>
-											<li><a href="blog-wide2.php">Social Media</a></li>
-											<li><a href="portfolio-3col.php">Diseño Publicitario</a></li>
-											<li><a href="portfolio-3col.php">Audiovisuales</a></li>
+											<li><a href="#">Planning</a></li>
+											<li><a href="#">Desarrollo Web</a></li>
+											<li><a href="#">Herramientas Digitales</a></li>
+											<li><a href="#">Social Media</a></li>
+											<li><a href="#">Diseño Publicitario</a></li>
+											<li><a href="#">Audiovisuales</a></li>
 										</ul>
 									</li>
 									<li><a href="blog.php">Blog</a></li>

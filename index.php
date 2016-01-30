@@ -299,7 +299,7 @@
 					<div class="col-sm-12">
 						<div class="latestpost animation" data-animation="animation-fade-in-down">
 							<div class="heading">
-								<h2>Latest Posts</h2>
+								<h2>Noticias Actuales</h2>
 							</div>
 						</div>
 					</div><!-- col 12 end -->
