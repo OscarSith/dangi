@@ -14,19 +14,17 @@
 				</div><!-- .row end -->
 			</div><!-- .container end -->
 		</section>
-		<!-- Nadea PageTitle Section End -->
 
-		<!-- Nadea Services Section Start -->
 		<section id="ndpropage" class="ndprosincol clear">
 			<div class="container">
 				<div class="row">
 					<div class="col-sm-8">
-						<div class="prosinglecol page-postsing animation" data-animation="animation-fade-in-left">
+						<div class="prosinglecol page-postsing animation mb40" data-animation="animation-fade-in-left">
 							<div class="post-content-container">
 								<div class="post-image-container">
 									<div  class="propage-postslide">
 										<div class="item">
-											<img src="diseñoweb-dangi2.png" class="img-responsive" alt="blog post image" />
+											<img src="images/disenioweb-dangi2.png" class="img-responsive" alt="blog post image" />
 										</div><!--Slide 1 -->
 									</div>
 
@@ -35,29 +33,20 @@
 								<div class="blogpost-title">
 									<h2>WEB</h2>
 								</div>
-                      
-                                <!-- Blog Title--><!-- .post-info end -->
-<p></p>
 								<p>Una web es contar con un trabajador más, el cual labora las 24 horas del día y los 7 días de semana sin descansar. Se encargar de explicar y mostrar tus productos y servicios con el objetivo principal de generar ventas.</p>
 								<p>El ecosistema digital no es más que todas las herramientas que utilizamos para realizar una campaña de publicidad integral en Internet. No basta contar con una página web y esperar que caigan los clientes. Hoy en día tenemos que aprovechar todas las plataformas posibles para difundir nuestro mensaje. Redes sociales, blogs, email, mercados libres y otros segundas manos son herramientas que tenemos que entender para que sean parte de nuestra estrategia.</p>
-
-								<!-- pa-->
 								<nav class="ndporpagination">
 									<ul class="pager">
 										<li class="ndarrowleft"><a href="#"><i class="arrow_left"></i>Portafolio</a><a href="#"><i class="arrow_right"></i></a></li>
 									</ul>
 								</nav>
-							</div><!--Item 1 -->
+							</div>
 
 						</div>
-					</div><!-- .col 8 end -->
+					</div>
 
-					<!-- RightSide Start -->
 					<div class="col-sm-4">
 						<div class="ndrightsidebar">
-							<!-- .Categories start --><!-- .Categories end -->
-
-							<!-- .ProjectDtails start -->
 							<div class="ndwidget_tag clear animation" data-animation="animation-fade-in-right">
 								<div class="sbminhight"></div>
 								<h3>DETALLES DE PRODUCTO</h3>
@@ -82,35 +71,16 @@
 									<li><a href="">Joomla</a></li>
 									<li><a href="">Diseño web</a></li>
 								</ul>
-							
+
 							</div>
-							<!-- .NdWidget-Tag end -->
-
-
-							<!-- .NdWidget-Tag start -->
 							<div class="ndwidgetshare clear animation" data-animation="animation-fade-in-right">
 								<div class="sbminhight"></div>
 								<h3>&nbsp;</h3>
-							</div><!-- .NdWidget-Tag end -->
+							</div>
+						</div>
+					</div>
 
-
-						</div><!-- .ndrightsidebar End -->
-					</div><!-- Col 4 End -->
-
-				</div><!-- .rowfuld end -->
+				</div>
 			</div>
 		</section>
-		<!-- Nadea BlogPost Section End-->
-
-		<!-- Nadea Recent Work Start -->
-		<section class="ndrecprohg clear animation" data-animation="animation-fade-in-up" id="ndrecentworks"><!-- container end -->
-		</section>
-		<!--Recent Work End -->
-
-		<!-- Newslater Section Start -->
-		<section class="clear skype-bg" id="ndnewslater" ><!-- container end -->
-		</section>
-		<!-- Newslater Section End -->
-
-		<!-- OurClient Section Start --><!-- OurClient Section End -->
 <?php include 'tpl/footer.tpl.php'; ?>

@@ -649,10 +649,5 @@
 				</div>
 			</div>
 		</section>
-		<!-- Newslater Section End -->
-
-		<div class="mapArea" id="googlemap">
-			<div id="contactMap" class="contact-map"></div>
-		</div>
 
 <?php include 'tpl/footer.tpl.php'; ?>

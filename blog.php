@@ -520,70 +520,7 @@
 			</div>
 		</section>
 		<!-- Nadea BlogPost Section End-->
-
-		<!-- Nadea Recent Work Start -->
-		<section class="ndproeleblg clear animation" data-animation="animation-fade-in-up" id="ndrecentworks">
-			<div class="container">
-				<div class="row">
-					<div class="col-sm-12">
-						<div class="heading">
-							<h2 class="ndnwdrak">Recent Works</h2>
-						</div>
-					</div>
-				</div>
-				<div class="row-fulid clear">
-					<ul class="portfolioContainer isotope ndrecentwork" id="owl-ndab-recentwork">
-						<li class="web col-sm-3">
-							<div class="lightCon"> <span class="hoverBox"> <span class="smallIcon"> <a href="images/projects/big-images/1.jpg" title="Project Title2" class="zoom lb lb_warsaw1 image-responsive">	<i class="icon_search"></i> </a> <span class="border-right"> </span> <a href="#" title="Project Link" target="_blank" class="linKed"> <i class="icon_link"> </i> </a></span> </span> <img src="images/projects/thumb-images/1.jpg" alt="" > </div>
-						</li><!-- item 1-->
-
-						<li class="web photo col-sm-3">
-							<div class="portfolio4col">
-								<div class="lightCon"> <span class="hoverBox"> <span class="smallIcon"> <a href="images/projects/big-images/2.jpg" title="Project Title2" class="zoom lb lb_warsaw1 image-responsive"><i class="icon_search"></i></a> <span class="border-right"></span> <a href="#" title="Project Link" target="_blank" class="linKed"> <i class="icon_link"></i> </a> </span> </span> <img src="images/projects/thumb-images/2.jpg" alt="" > </div>
-							</div>
-						</li><!-- item 2-->
-
-						<li class="photo col-sm-3">
-							<div class="portfolio4col">
-								<div class="lightCon"> <span class="hoverBox"> <span class="smallIcon"> <a href="images/projects/big-images/3.jpg" title="Project Title3" class="zoom lb lb_warsaw1 image-responsive"><i class="icon_search"></i></a> <span class="border-right"></span> <a href="#" title="Project Link" target="_blank" class="linKed"> <i class="icon_link"></i> </a> </span> </span> <img src="images/projects/thumb-images/3.jpg" alt="" > </div>
-							</div>
-						</li><!-- item 3-->
-
-						<li class="design col-sm-3">
-							<div class="portfolio4col">
-								<div class="lightCon"> <span class="hoverBox"> <span class="smallIcon"> <a href="images/projects/big-images/4.jpg" title="Project Title4" class="zoom lb lb_warsaw1 image-responsive"><i class="icon_search"></i></a> <span class="border-right"></span> <a href="#" title="Project Link" target="_blank" class="linKed"> <i class="icon_link"></i> </a> </span> </span> <img src="images/projects/thumb-images/4.jpg" alt="" > </div>
-							</div>
-						</li><!-- item 4-->
-
-						<li class="web col-sm-3">
-							<div class="portfolio4col">
-								<div class="lightCon"> <span class="hoverBox"> <span class="smallIcon"> <a href="images/projects/big-images/5.jpg" title="Project Title5" class="zoom lb lb_warsaw1 image-responsive"><i class="icon_search"></i></a> <span class="border-right"></span> <a href="#" title="Project Link" target="_blank" class="linKed"> <i class="icon_link"></i> </a> </span> </span> <img src="images/projects/thumb-images/5.jpg" alt="" > </div>
-							</div>
-						</li><!-- item 5-->
-
-						<li class="web design photo col-sm-3">
-							<div class="portfolio4col">
-								<div class="lightCon"> <span class="hoverBox"> <span class="smallIcon"> <a href="images/projects/big-images/6.jpg" title="Project Title6" class="zoom lb lb_warsaw1 image-responsive"><i class="icon_search"></i></a> <span class="border-right"></span> <a href="#" title="Project Link" target="_blank" class="linKed"> <i class="icon_link"></i> </a> </span> </span> <img src="images/projects/thumb-images/6.jpg" alt="" > </div>
-							</div>
-						</li><!-- item 6-->
-
-						<li class="photo web col-sm-3">
-							<div class="portfolio4col">
-								<div class="lightCon"> <span class="hoverBox"> <span class="smallIcon"> <a href="images/projects/big-images/7.jpg" title="Project Title7" class="zoom lb lb_warsaw1 image-responsive"><i class="icon_search"></i></a> <span class="border-right"></span> <a href="#" title="Project Link" target="_blank" class="linKed"> <i class="icon_link"></i> </a> </span> </span> <img src="images/projects/thumb-images/7.jpg" alt="" > </div>
-							</div>
-						</li><!-- item 7-->
-
-						<li class="web design photo col-sm-3">
-							<div class="portfolio4col">
-								<div class="lightCon"> <span class="hoverBox"> <span class="smallIcon"> <a href="images/projects/big-images/8.jpg" title="Project Title8" class="zoom lb lb_warsaw1 image-responsive"><i class="icon_search"></i></a> <span class="border-right"></span> <a href="#" title="Project Link" target="_blank" class="linKed"> <i class="icon_link"></i> </a> </span> </span> <img src="images/projects/thumb-images/8.jpg" alt="" > </div>
-							</div>
-						</li><!-- item 8-->
-					</ul><!-- ul end-->
-				</div>
-			</div><!-- container end -->
-		</section>
 		<div class="ndheight"></div>
-		<!--Recent Work End -->
 
 		<!-- Newslater Section Start -->
 		<section class="clear skype-bg" id="ndnewslater" >

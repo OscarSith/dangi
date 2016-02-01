@@ -887,6 +887,9 @@ span.hoverBox .linKed{
 }
 /* .post-content-container {padding-right:10px;padding-left:10px;} */
 .post-content-container p{color:#7e8082;font-size:12px;padding-right:2px;font-weight:normal;padding-bottom: 15px;}
+.post-content-container h3 {
+	margin: 20px 0 10px;
+}
 .latest-post-owl .row{margin-left:-10px;margin-right:-10px;}
 .read-more{
 	color:#7e8082;
@@ -4023,4 +4026,7 @@ input[type="submit"]:hover > i{
 	font-family: 'oswaldlight';
 	font-weight:700;
 	opacity:0.3;
+}
+.mb40 {
+	margin-bottom: 40px;
 }

@@ -26,14 +26,16 @@ if ($path == 'index.php') {
 <link type="text/css" rel="stylesheet" id="theme" href="css/jquery-ui-1.8.16.custom.css"/>
 <link type="text/css" rel="stylesheet" href="css/lightbox.min.css"/>
 
-<!-- Revolution slider css -->
-<link rel="stylesheet" href="rs-plugin/css/settings.css"/>
-<link rel="stylesheet" href="rs-plugin/css/revolution.css"/>
+<?php if ($path == 'index.php' || $path == 'blog.php'): ?>
+	<!-- Revolution slider css -->
+	<link rel="stylesheet" href="rs-plugin/css/settings.css"/>
+	<link rel="stylesheet" href="rs-plugin/css/revolution.css"/>
 
-<!-- Owl Carousel css -->
-<link href="js/lib/owl-carousel/owl.carousel.css" rel="stylesheet">
-<link href="js/lib/owl-carousel/owl.theme.css" rel="stylesheet">
-<link href="js/lib/owl-carousel/owl.transitions.css" rel="stylesheet">
+	<!-- Owl Carousel css -->
+	<link href="js/lib/owl-carousel/owl.carousel.css" rel="stylesheet">
+	<link href="js/lib/owl-carousel/owl.theme.css" rel="stylesheet">
+	<link href="js/lib/owl-carousel/owl.transitions.css" rel="stylesheet">
+<?php endif ?>
 
 <!-- font icon css style-->
 <link rel="stylesheet" href="font/css/font-awesome.css">
@@ -74,12 +76,12 @@ if ($path == 'index.php') {
 									<li>
 										<a href="#">Servicios</a>
 										<ul class="dropDown sub-menu">
-											<li><a href="portfolio-single.php">Planning</a></li>
-											<li><a href="portfolio-single.php">Desarrollo Web</a></li>
-											<li><a href="portfolio-single.php">Herramientas Digitales</a></li>
-											<li><a href="portfolio-single.php">Social Media</a></li>
-											<li><a href="portfolio-single.php">Diseño Publicitario</a></li>
-											<li><a href="portfolio-single.php">Audiovisuales</a></li>
+											<li><a href="planning-dangi.php">Planning</a></li>
+											<li><a href="disenioweb-dangi.php">Desarrollo Web</a></li>
+											<li><a href="herramientas-digitales-dangi.php">Herramientas Digitales</a></li>
+											<li><a href="socialmedia-dangi.php">Social Media</a></li>
+											<li><a href="#">Diseño Publicitario</a></li>
+											<li><a href="audiovisuales-dangi.php">Audiovisuales</a></li>
 										</ul>
 									</li>
 									<li>

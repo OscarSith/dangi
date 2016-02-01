@@ -26,7 +26,7 @@
 								<div class="post-image-container">
 									<div  class="propage-postslide">
 										<div class="item">
-											<img src="planning-dangi.png" class="img-responsive" alt="blog post image" />
+											<img src="images/planning-dangi.png" class="img-responsive" alt="blog post image" />
 										</div><!--Slide 1 -->
 									</div>
 
@@ -35,9 +35,7 @@
 								<div class="blogpost-title">
 									<h2>LA PLANIFICACIÓN </h2>
 								</div>
-                      
-                                <!-- Blog Title--><!-- .post-info end -->
-<p></p>
+								<br>
 								<p>La marca debe evidenciar en todo momento su razón de ser. Un trabajo de planificación debe ser un buen ejercicio de comunicación constante en todos los procesos comerciales de la empresa y que permita conectar con las personas.</p>
 								<p>Nuestro trabajo es determinar la dirección de los medios para alcanzar el objetivo del plan de marketing, ya sea para el posicionamiento de marca o generar conversiones. </p>
 
@@ -82,17 +80,4 @@
 				</div><!-- .rowfuld end -->
 			</div>
 		</section>
-		<!-- Nadea BlogPost Section End-->
-
-		<!-- Nadea Recent Work Start -->
-		<section class="ndrecprohg clear animation" data-animation="animation-fade-in-up" id="ndrecentworks"><!-- container end -->
-		</section>
-		<!--Recent Work End -->
-
-		<!-- Newslater Section Start -->
-		<section class="clear skype-bg" id="ndnewslater" ><!-- container end -->
-		</section>
-		<!-- Newslater Section End -->
-
-		<!-- OurClient Section Start --><!-- OurClient Section End -->
 <?php include 'tpl/footer.tpl.php'; ?>

@@ -97,20 +97,21 @@
 
 		<div class="go-up"><img src="images/back-top.png" alt="Back-To-Top"/></div>
 
-		<!-- Jquery lib-->
 		<script src="js/jquery.js"></script>
 		<script src="js/bootstrap.js"></script>
-		<!-- JavaScript -->
-		<script type="text/javascript" src="https://maps.google.com/maps/api/js?sensor=true"></script>
-		<script src="js/lib/jquery.appear.js"></script>
-		<script src="js/lib/owl-carousel/owl.carousel.min.js"></script>
-		<script type="text/javascript" src="js/gmaps.js"></script>
-		<!--for portfolio jquery-->
-		<script src="js/jquery.isotope.min.js" type="text/javascript"></script>
-		<script type="text/javascript" src="js/jquery.ui.widget.min.js"></script>
-		<script type="text/javascript" src="js/jquery.ui.rlightbox.js"></script>
-		<script src="rs-plugin/js/jquery.themepunch.tools.min.js"></script>
-		<script src="rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+		<?php if ($path != 'aboutus.php'): ?>
+			<script src="js/lib/owl-carousel/owl.carousel.min.js"></script>
+			<script src="js/jquery.isotope.min.js" type="text/javascript"></script>
+			<script type="text/javascript" src="js/jquery.ui.widget.min.js"></script>
+			<script type="text/javascript" src="js/jquery.ui.rlightbox.js"></script>
+			<script src="rs-plugin/js/jquery.themepunch.tools.min.js"></script>
+			<script src="rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+		<?php endif ?>
+
+		<?php if ($path == 'contact.php'): ?>
+			<script type="text/javascript" src="https://maps.google.com/maps/api/js?sensor=true"></script>
+			<script type="text/javascript" src="js/gmaps.js"></script>
+		<?php endif ?>
 		<script type="text/javascript">
 			var tpj=jQuery;
 			tpj.noConflict();
@@ -119,8 +120,9 @@
 			if (tpj.fn.cssOriginal!=undefined)
 				tpj.fn.css = tpj.fn.cssOriginal;
 
-				tpj('.banner').revolution(
-					{
+				var $banner = tpj('.banner');
+				if ($banner.length) {
+					$banner.revolution({
 						dottedOverlay:"none",
 						delay:9000,
 						startwidth:1500,
@@ -161,50 +163,53 @@
 						shadow:0,								//0 = no Shadow, 1,2,3 = 3 Different Art of Shadows  (No Shadow in Fullwidth Version !)
 						fullWidth:"on"							// Turns On or Off the Fullwidth Image Centering in FullWidth Modus
 					});
+				}
+			});
+		</script>
+		<?php if ($path == 'contact.php'): ?>
+			<script type="text/javascript">
+				var map;
+
+				map = new window.GMaps({
+					div: '#contactMap',
+					lat: -12.1368316,
+					lng: -76.984311,
+					scrollwheel: false,
+					zoomControl: false,
+					disableDoubleClickZoom: false,
+					disableDefaultUI: true,
+					zoom: 17,
 				});
-		</script>
-		<script type="text/javascript">
-			var map;
 
-			map = new window.GMaps({
-				div: '#contactMap',
-				lat: -12.1368316,
-				lng: -76.984311,
-				scrollwheel: false,
-				zoomControl: false,
-				disableDoubleClickZoom: false,
-				disableDefaultUI: true,
-				zoom: 17,
-			});
+				var styles = [
+					{
+						stylers: [
+							{ hue: "#00ffe6" },
+							{ saturation: -100 }
+						]
+					}
+				];
 
-			var styles = [
-				{
-					stylers: [
-						{ hue: "#00ffe6" },
-						{ saturation: -100 }
-					]
-				}
-			];
+				map.addStyle({
+					styledMapName:"Styled Map",
+					styles: styles,
+					mapTypeId: "map_style"
+				});
 
-			map.addStyle({
-				styledMapName:"Styled Map",
-				styles: styles,
-				mapTypeId: "map_style"
-			});
-
-			map.setStyle("map_style");
-			map.addMarker({
-				lat: -12.1368316,
-				lng: -76.984311,
-				icon: 'images/mapmarker.png',
-				title: '',
-				infoWindow: {
-					content: ''
-				}
-			});
-		</script>
+				map.setStyle("map_style");
+				map.addMarker({
+					lat: -12.1368316,
+					lng: -76.984311,
+					icon: 'images/mapmarker.png',
+					title: '',
+					infoWindow: {
+						content: ''
+					}
+				});
+			</script>
+		<?php endif ?>
 		<script type="text/javascript" src="js/ms-drop-down.js"></script>
-		<script type="text/javascript" src="js/easy-tabs.js"></script>
+		<!--<script type="text/javascript" src="js/easy-tabs.js"></script>-->
 		<script type="text/javascript" src="js/main.js" ></script>
     </body>
 </html>
