@@ -1,6 +1,7 @@
 <?php
-
 if(!$_POST) exit;
+
+require '../SendMail/PHPMailerAutoload.php';
 
 // Email address verification, do not edit.
 function isEmail($email) {
@@ -11,7 +12,7 @@ if (!defined("PHP_EOL")) define("PHP_EOL", "\r\n");
 
 $name     = $_POST['name'];
 $email    = $_POST['email'];
-$massage = $_POST['massage'];
+$message = $_POST['massage'];
 
 if(trim($name) == '') {
 	echo '<div class="error_message">You must enter your name.</div>';
@@ -24,13 +25,13 @@ if(trim($name) == '') {
 	exit();
 }
 
-if(trim($massage) == '') {
+if(trim($message) == '') {
 	echo '<div class="error_message">Please enter your message.</div>';
 	exit();
 }
 
 if(get_magic_quotes_gpc()) {
-	$massage = stripslashes($massage);
+	$message = stripslashes($message);
 }
 
 
@@ -38,47 +39,51 @@ if(get_magic_quotes_gpc()) {
 // Enter the email address that you want to emails to be sent to.
 // Example $address = "joe.doe@yourdomain.com";
 
-//$address = "example@example.net";
-$address = "webredox@gmail.com";
+// Email has sent successfully, echo a success page.
+sleep(1);
+try {
+	$mail = new PHPMailer();
 
+	$mail->isSMTP();
+	$mail->SMTPAuth = true;
+	$mail->Host = 'smtp.mandrillapp.com';
+	$mail->Username = 'larriega@gmail.com';
+	$mail->Password = '';
+	$mail->SMTPSecure = 'tls';
+	$mail->CharSet = 'UTF-8';
+	$mail->Port = 587;
 
-// Configuration option.
-// i.e. The standard subject will appear as, "You've been contacted by John Doe."
+	$mail->From     = 'info@agenciadangi.com';
+	$mail->FromName = 'Agencia Dangi';
 
-// Example, $e_subject = '$name . ' has contacted you via Your Website.';
+	$body = '<h2>De: '.$name.'</h2>'
+			.'<ul><li>Correo electrónico: '.$email.'</li>'
+			.'<li>Mensaje<p>'. $message .'</p></li></ul>';
 
-$e_subject = 'You have been contacted by ' . $name . '.';
+	$text_body = 'De: '.$name."\n\n"
+			.'Correo electrónico: '.$email."\n"
+			."Mensaje\n". $message;
 
+	$mail->Subject = 'Mensaje enviado desde la web agenciadangi.com';
+	$mail->Body    = $body;
+    $mail->AltBody = $text_body;
+    $mail->addAddress('larriega@gmail.com', 'Oscar Larriega');
+    // $mail->AddCC('dantebecerra2013@artedangi.com');
 
-// Configuration option.
-// You can change this if you feel that you need to.
-// Developers, you may wish to add more fields to the form, in which case you must be sure to add them here.
+    if ($mail->send())
+	{
+		echo "<div id='success_page' class='alert alert-success'>";
+		echo "<h3>Su correo ha sido enviado exitosamente.</h3>";
+		echo "<p>Gracias <strong>$name</strong>, nos comunicaremos con usted a la brevedad posible.</p>";
+		echo "</div>";
+    }
+    else
+    {
+    	echo "<div id='success_page' class='alert alert-danger'><p>Ups.. no se pudo enviar el correo, intentelo de nuevo</p></div>";
+    }
 
-$e_body = "You have been contacted by $name. Their additional message is as follows." . PHP_EOL . PHP_EOL;
-$e_content = "\"$massage\"" . PHP_EOL . PHP_EOL;
-$e_reply = "You can contact $name via email, $email";
-
-$msg = wordwrap( $e_body . $e_content . $e_reply, 70 );
-
-$headers = "From: $email" . PHP_EOL;
-$headers .= "Reply-To: $email" . PHP_EOL;
-$headers .= "MIME-Version: 1.0" . PHP_EOL;
-$headers .= "Content-type: text/plain; charset=utf-8" . PHP_EOL;
-$headers .= "Content-Transfer-Encoding: quoted-printable" . PHP_EOL;
-
-if(mail($address, $e_subject, $msg, $headers)) {
-
-	// Email has sent successfully, echo a success page.
-
-	echo "<fieldset>";
-	echo "<div id='success_page'>";
-	echo "<h3>Email Sent Successfully.</h3>";
-	echo "<p>Thank you <strong>$name</strong>, your message has been submitted to us.</p>";
-	echo "</div>";
-	echo "</fieldset>";
-
-} else {
-
-	echo 'ERROR!';
-
+    // Clear all addresses and attachments for next loop
+    $mail->clearAddresses();
+} catch (phpmailerException $e) {
+	echo "<div id='success_page' class='alert alert-danger'><p>" + $e->getMessage() + "</p></div>";
 }

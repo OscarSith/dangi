@@ -58,7 +58,7 @@
 									</div>
 								</div>
 							</div>
-							<div id="simple-msg"></div> <!-- data submit status -->
+							<div id="simple-msg"></div>
 						</form> <!-- Form-section End -->
 				  </div>
 				</div>

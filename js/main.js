@@ -1,7 +1,6 @@
 /* <![CDATA[ */
- jQuery(document).ready(function($) {
- 'use strict';
-
+jQuery(document).ready(function($) {
+	'use strict';
 
 	//-------------------- Header Secrch  --------------------//
 	jQuery(".header-search-a").on('click',(function (){
@@ -20,14 +19,11 @@
 
 	jQuery('.offset').height( jQueryheader.outerHeight() )
 
-	//-- Window Scroll Functions --
+		//-- Window Scroll Functions --
 
-	jQuery(window).scroll(function(){
-		(jQuery(window).scrollTop() > jQueryheaderTop) ? jQuery('.header').addClass('fixedHeader') : jQuery('.header').removeClass('fixedHeader');
-	});
-	//--------------------------------------------------------------------------------------------
-
-	/* ◄------ Accordion & Toggle -------------------------------► */
+		jQuery(window).scroll(function(){
+			(jQuery(window).scrollTop() > jQueryheaderTop) ? jQuery('.header').addClass('fixedHeader') : jQuery('.header').removeClass('fixedHeader');
+		});
 
 		jQuery("#accordianShortCode .accordionRow > a").on("click", function(e){
 		  if(jQuery(this).parent().has("div")) {
@@ -53,10 +49,7 @@
 		  }
 		});
 
-	//--------------------------------------------------------------------------------------------
-
-	//-- Accordion 2 --
-
+		//-- Accordion 2 --
 		jQuery("#accordianShortCode2 .accordionRow > a").on("click", function(e){
 			if(jQuery(this).parent().has("div")) {
 			e.preventDefault();
@@ -81,109 +74,93 @@
 		  }
 		});
 
-	//--------------------------------------------------------------------------------------------
-
 	//-- tabs --
-
-
-		//jQuery('.tabsContainer').easytabs();
-
-  //--------------------------------------------------------------------------------------------
+	//jQuery('.tabsContainer').easytabs();
 
 	//-- Progressbar --
+	jQuery('.progress-bar').on('each',(function(){
+	var imagePos = jQuery(this).offset().top;
 
-		jQuery('.progress-bar').on('each',(function(){
-		var imagePos = jQuery(this).offset().top;
+	var topOfWindow = jQuery(document).scrollTop();
+	  if (imagePos < topOfWindow+jQuery(window).height() * 0.8) {
+		jQuery(this).addClass("animated slideRightSlow");
+	  }
+	}));
 
-		var topOfWindow = jQuery(document).scrollTop();
-		  if (imagePos < topOfWindow+jQuery(window).height() * 0.8) {
-			jQuery(this).addClass("animated slideRightSlow");
-		  }
-		}));
+	//-- Including the main nav contents in responsive main nav DIV --
+	jQuery('.mainNav .navTabs').clone().appendTo('.responsiveMainNav');
 
-
-
-
-
-
-
-		//-- Including the main nav contents in responsive main nav DIV --
-		jQuery('.mainNav .navTabs').clone().appendTo('.responsiveMainNav');
-
-		//-- Show and Hide responsive nav --
-		jQuery('#responsiveMainNavToggler').on('click',(function(event){
-		  event.preventDefault();
-		  jQuery('#responsiveMainNavToggler').toggleClass('opened');
-		  jQuery('.responsiveMainNav').slideToggle(1000);
-		  jQuery('.responsiveMainNav').addClass('nav-active');
+	//-- Show and Hide responsive nav --
+	jQuery('#responsiveMainNavToggler').on('click',(function(event){
+	  event.preventDefault();
+	  jQuery('#responsiveMainNavToggler').toggleClass('opened');
+	  jQuery('.responsiveMainNav').slideToggle(1000);
+	  jQuery('.responsiveMainNav').addClass('nav-active');
 
 
-		  if ( jQuery('#responsiveMainNavToggler i').hasClass('fa-bars') )
-		  {
-			  jQuery('#responsiveMainNavToggler i').removeClass('fa-bars');
-			  jQuery('#responsiveMainNavToggler i').addClass('fa-close');
-		  }else
-		  {
-			  jQuery('#responsiveMainNavToggler i').removeClass('fa-close');
-			  jQuery('#responsiveMainNavToggler i').addClass('fa-bars');
-		  }
-		}));
-		// dropdown level 1
-		if(jQuery(".responsiveMainNav .navTabs > li > a").parent().has("ul")) {
-		  jQuery(".responsiveMainNav .navTabs > li > a:first-child").addClass("toggleResponsive");
-		  jQuery(".responsiveMainNav .navTabs > li > a:last-child").removeClass("toggleResponsive");
-		}
+	  if ( jQuery('#responsiveMainNavToggler i').hasClass('fa-bars') )
+	  {
+		  jQuery('#responsiveMainNavToggler i').removeClass('fa-bars');
+		  jQuery('#responsiveMainNavToggler i').addClass('fa-close');
+	  }else
+	  {
+		  jQuery('#responsiveMainNavToggler i').removeClass('fa-close');
+		  jQuery('#responsiveMainNavToggler i').addClass('fa-bars');
+	  }
+	}));
+	// dropdown level 1
+	if(jQuery(".responsiveMainNav .navTabs > li > a").parent().has("ul")) {
+	  jQuery(".responsiveMainNav .navTabs > li > a:first-child").addClass("toggleResponsive");
+	  jQuery(".responsiveMainNav .navTabs > li > a:last-child").removeClass("toggleResponsive");
+	}
 
-		jQuery(".responsiveMainNav .navTabs > li > .toggleResponsive").on("click", function(e){
-		  if(jQuery(this).parent().has("ul")) {
-			e.preventDefault();
-		  }
+	jQuery(".responsiveMainNav .navTabs > li > .toggleResponsive").on("click", function(e){
+	  if(jQuery(this).parent().has("ul")) {
+		e.preventDefault();
+	  }
 
-		  if(!jQuery(this).hasClass("activeLine")) {
-			// hide any open menus and remove all other classes
-			jQuery(".responsiveMainNav .navTabs > li > .toggleResponsive").removeClass("activeLine");
-			jQuery(".responsiveMainNav .navTabs > li > .dropDown").slideUp(500);
+	  if(!jQuery(this).hasClass("activeLine")) {
+		// hide any open menus and remove all other classes
+		jQuery(".responsiveMainNav .navTabs > li > .toggleResponsive").removeClass("activeLine");
+		jQuery(".responsiveMainNav .navTabs > li > .dropDown").slideUp(500);
 
-			// open our new menu and add the activeLine class
-			jQuery(this).addClass("activeLine");
-			jQuery(this).next(".responsiveMainNav .navTabs > li > .dropDown").slideDown(500);
-		  }
+		// open our new menu and add the activeLine class
+		jQuery(this).addClass("activeLine");
+		jQuery(this).next(".responsiveMainNav .navTabs > li > .dropDown").slideDown(500);
+	  }
 
-		  else if(jQuery(this).hasClass("activeLine")) {
-			jQuery(this).removeClass("activeLine");
-			jQuery(this).next(".responsiveMainNav .navTabs > li > .dropDown").slideUp(500);
-		  }
-		});
+	  else if(jQuery(this).hasClass("activeLine")) {
+		jQuery(this).removeClass("activeLine");
+		jQuery(this).next(".responsiveMainNav .navTabs > li > .dropDown").slideUp(500);
+	  }
+	});
 
+	// dropdown level 2
+	if(jQuery(".responsiveMainNav .navTabs > li > .dropDown > li > a").parent().has("ul")) {
+	  jQuery(".responsiveMainNav .navTabs > li > .dropDown > li > a:first-child").addClass("toggleResponsive");
+	  jQuery(".responsiveMainNav .navTabs > li > .dropDown > li > a:last-child").removeClass("toggleResponsive");
+	}
 
-		// dropdown level 2
-		if(jQuery(".responsiveMainNav .navTabs > li > .dropDown > li > a").parent().has("ul")) {
-		  jQuery(".responsiveMainNav .navTabs > li > .dropDown > li > a:first-child").addClass("toggleResponsive");
-		  jQuery(".responsiveMainNav .navTabs > li > .dropDown > li > a:last-child").removeClass("toggleResponsive");
-		}
+	jQuery(".responsiveMainNav .navTabs > li > .dropDown > li > .toggleResponsive").on("click", function(e){
+	  if(jQuery(this).parent().has("ul")) {
+		e.preventDefault();
+	  }
 
+	  if(!jQuery(this).hasClass("activeLine")) {
+		// hide any open menus and remove all other classes
+		jQuery(".responsiveMainNav .navTabs > li > .dropDown > li > .toggleResponsive").removeClass("activeLine");
+		jQuery(".responsiveMainNav .navTabs > li > .dropDown li .dropDown").slideUp(500);
 
-		jQuery(".responsiveMainNav .navTabs > li > .dropDown > li > .toggleResponsive").on("click", function(e){
-		  if(jQuery(this).parent().has("ul")) {
-			e.preventDefault();
-		  }
+		// open our new menu and add the activeLine class
+		jQuery(this).addClass("activeLine");
+		jQuery(this).next(".responsiveMainNav .navTabs > li > .dropDown li .dropDown").slideDown(500);
+	  }
 
-		  if(!jQuery(this).hasClass("activeLine")) {
-			// hide any open menus and remove all other classes
-			jQuery(".responsiveMainNav .navTabs > li > .dropDown > li > .toggleResponsive").removeClass("activeLine");
-			jQuery(".responsiveMainNav .navTabs > li > .dropDown li .dropDown").slideUp(500);
-
-			// open our new menu and add the activeLine class
-			jQuery(this).addClass("activeLine");
-			jQuery(this).next(".responsiveMainNav .navTabs > li > .dropDown li .dropDown").slideDown(500);
-		  }
-
-		  else if(jQuery(this).hasClass("activeLine")) {
-			jQuery(this).removeClass("activeLine");
-			jQuery(this).next(".responsiveMainNav .navTabs > li > .dropDown li .dropDown").slideUp(500);
-		  }
-		});
-
+	  else if(jQuery(this).hasClass("activeLine")) {
+		jQuery(this).removeClass("activeLine");
+		jQuery(this).next(".responsiveMainNav .navTabs > li > .dropDown li .dropDown").slideUp(500);
+	  }
+	});
 
 	//-------------------- Owlslider Testimonials1 --------------------//
 	var $testimonials = $("#owl-testimonials");
@@ -375,11 +352,8 @@
 			]
 		});
 	}
-	//--------------------  Owlslider RecentWork Home3 Section --------------------//
-
 
 	//-------------------- for portfoli filter jquary --------------------//
-
 	var $container = $('.portfolioContainer');
 	if ($container.length) {
 		$('.portfolioFilter a').on('click',function() {
@@ -399,7 +373,6 @@
 		});
 	}
 	//-------------------- for portfoli lightbox jquary --------------------//
-
 	jQuery(function() {
 		// var $chosenSheet, $stylesheets = $( "a[id^=theme-]" );
 
@@ -411,7 +384,6 @@
 		}
 	});
 
-
     if (is_touch_device()){
         $(".portfolio-image").on('click', function(e){
             $(this).find('.portfolio-hover').show();
@@ -422,7 +394,6 @@
         return 'ontouchstart' in window // works on most browsers
         || 'onmsgesturechange' in window; // works on ie10
     }
-
 
     (function() {
         //ISOTOPE
@@ -438,10 +409,8 @@
 	        });
         }
     })();
-	//-------------------- End PORTFOLIO ISOTOPE FILTER --------------------//
 
 	//-------------------- Animation elements with CSS3 --------------------//
-
 	var topOffset = $(window).scrollTop() + ($(window).height()*0.8);
 
 	$('.animation, .animation-visible').on('each',(function() {
@@ -469,18 +438,15 @@
 		});
 	});
 
-	//-------------------- End animation elements with CSS3 --------------------//
-
 	//-------------------- Twitter integration with jQuery --------------------//
-
 	// $.getJSON('includes/get-tweets.php',
- //        function(feeds) {
- //            // alert(feeds);
+	//        function(feeds) {
+	//            // alert(feeds);
 	// 		var displaylimit		= 2;
 	// 		var showdirecttweets	= false;
 	// 		var showretweets		= true;
- //            var feedHTML			= '';
- //            var displayCounter		= 1;
+	//            var feedHTML			= '';
+	//            var displayCounter		= 1;
 	// 		var $tweets				= $('.nd_tweets_widget');
 
 	// 		if(feeds !== null) {
@@ -597,10 +563,7 @@
 	// 	} // ify
 	// };
 
-	//-------------------- End twitter integration with jQuery --------------------//
-
 	//-------------------- Start Go Up --------------------//
-
 	jQuery(window).scroll(function () {
 		if(jQuery(this).scrollTop() > 200 ) {
 			jQuery(".go-up").css("right","20px");
@@ -613,10 +576,7 @@
 		return false;
 	}));
 
-	/* ==============================================
-	Preloader
-	=============================================== */
-
+	/* Preloader */
 	$(window).load(function(){
 		$("#preloader").delay(500).fadeOut(1000);
 		$(".preload-logo").addClass('fadeOutLeft');
@@ -624,7 +584,32 @@
 		$(".preload-gif").addClass('fadeOutUp');
 		$('.portfolioFilter a.current').click()
 	});
-});
 
+	var $form = $('#cform');
+	if ($form.length) {
+		$form.on('submit', function(e) {
+			e.preventDefault();
+			$('#simple-msg, #message').empty();
+			var data = $form.serialize(),
+				$inputs = $form.find(':input');
+
+			$inputs.prop('disabled', true);
+			$inputs.last().val('Enviando...');
+			$.ajax({
+				url: $form.attr('action'),
+				type: 'post',
+				data: data
+			}).done(function(rpta) {
+				$('#message').html(rpta);
+				$form.trigger('reset');
+			}).always(function() {
+				$inputs.prop('disabled', false);
+				$inputs.last().val('Enviar');
+			}).fail(function(e, m) {
+				$('#simple-msg').html(m);
+			});
+		});
+	}
+});
 
  /* ]]> */
