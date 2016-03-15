@@ -15,18 +15,18 @@ $email    = $_POST['email'];
 $message = $_POST['massage'];
 
 if(trim($name) == '') {
-	echo '<div class="error_message">You must enter your name.</div>';
+	echo '<div class="error_message alert alert-warning"><p>El nombre es requerido.</p></div>';
 	exit();
 } else if(trim($email) == '') {
-	echo '<div class="error_message">Please enter a valid email address.</div>';
+	echo '<div class="error_message alert alert-warning"><p>Ingresa un correo electrónico.</p></div>';
 	exit();
 } else if(!isEmail($email)) {
-	echo '<div class="error_message">You have entered an invalid e-mail address. Please try again.</div>';
+	echo '<div class="error_message alert alert-warning"><p>El correo electronico escrito es inválido. Intente con otro.</p></div>';
 	exit();
 }
 
 if(trim($message) == '') {
-	echo '<div class="error_message">Please enter your message.</div>';
+	echo '<div class="error_message" class="alert alert-warning">Por favor, ingrese su mensaje.</div>';
 	exit();
 }
 
