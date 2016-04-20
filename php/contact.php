@@ -12,6 +12,7 @@ if (!defined("PHP_EOL")) define("PHP_EOL", "\r\n");
 
 $name     = $_POST['name'];
 $email    = $_POST['email'];
+$empresa    = $_POST['subject'];
 $message = $_POST['massage'];
 
 if(trim($name) == '') {
@@ -58,10 +59,12 @@ try {
 
 	$body = '<h2>De: '.$name.'</h2>'
 			.'<ul><li>Correo electrónico: '.$email.'</li>'
+			.'<li>Empresa: '.$empresa.'</li>'
 			.'<li>Mensaje<p>'. $message .'</p></li></ul>';
 
 	$text_body = 'De: '.$name."\n\n"
 			.'Correo electrónico: '.$email."\n"
+			.'Empresa: '.$empresa."\n"
 			."Mensaje\n". $message;
 
 	$mail->Subject = 'Mensaje enviado desde la web agenciadangi.com';
