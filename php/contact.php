@@ -46,14 +46,14 @@ try {
 
 	$mail->isSMTP();
 	$mail->SMTPAuth = true;
-	$mail->Host = 'smtp.mandrillapp.com';
-	$mail->Username = 'larriega@gmail.com';
+	$mail->Host = 'smtp.zoho.com';
+	$mail->Username = 'root@agenciadangi.com';
 	$mail->Password = '';
 	$mail->SMTPSecure = 'tls';
 	$mail->CharSet = 'UTF-8';
 	$mail->Port = 587;
 
-	$mail->From     = 'info@agenciadangi.com';
+	$mail->From     = 'root@agenciadangi.com';
 	$mail->FromName = 'Agencia Dangi';
 
 	$body = '<h2>De: '.$name.'</h2>'
@@ -67,8 +67,8 @@ try {
 	$mail->Subject = 'Mensaje enviado desde la web agenciadangi.com';
 	$mail->Body    = $body;
     $mail->AltBody = $text_body;
-    $mail->addAddress('larriega@gmail.com', 'Oscar Larriega');
-    // $mail->AddCC('dantebecerra2013@artedangi.com');
+    $mail->addAddress('dbecerra@agenciadangi.com', 'Dante Raul');
+    $mail->AddCC('larriega@gmail.com', 'Oscar Larriega');
 
     if ($mail->send())
 	{
