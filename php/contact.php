@@ -35,13 +35,6 @@ if(get_magic_quotes_gpc()) {
 	$message = stripslashes($message);
 }
 
-
-// Configuration option.
-// Enter the email address that you want to emails to be sent to.
-// Example $address = "joe.doe@yourdomain.com";
-
-// Email has sent successfully, echo a success page.
-sleep(1);
 try {
 	$mail = new PHPMailer();
 
